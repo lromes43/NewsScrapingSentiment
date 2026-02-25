@@ -1,7 +1,14 @@
 ---
-title: "Untitled"
+title: "News Sentiment Extraction"
 format: gfm
 ---
 
-Readme for the news sentiment scraping project will apply for the
-trading project I am working on.
+## Purpose
+
+
+
+## How To Use
+
+
+
+

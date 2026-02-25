@@ -1,5 +1,6 @@
-# Untitled
+# News Sentiment Extraction
 
 
-Readme for the news sentiment scraping project will apply for the
-trading project I am working on.
+## Purpose
+
+## How To Use
