@@ -1,0 +1,876 @@
+Date,Text
+2016-02-26,"Scientists at Nanyang Technological University, Singapore (NTU Singapore) have developed a chip that allows new radar cameras to be made a hundred times smaller than current ones. With this NTU technology, radar cameras that usually weigh between 50 kg and 200 kg and are commonly used in large satellites can be made to become as small as palm-sized.
+
+Despite being small, they can produce images that are of the same high quality if not better compared to conventional radar cameras. They are also 20 times cheaper to produce and consume at least 75 per cent less power.
+
+Developed over the past three years at NTU, the promising technology has already secured S$2.5 million in research funding from Singapore government agencies.
+
+The radar chip has attracted the attention of several multinational corporations, and is now being researched for use in Unmanned Aerial Vehicles (UAVs) and satellite applications.
+
+Assistant Professor Zheng Yuanjin from NTU's School of Electrical and Electronic Engineering who led the research, said that the size and effectiveness of the chip will open up new applications not possible previously.
+
+""We have significantly shrunk the conventional radar camera into a system that is extremely compact and affordable, yet provides better accuracy. This will enable high resolution imaging radar technology to be used in objects and applications never before possible, like small drones, driverless cars and small satellite systems,"" said Asst Prof Zheng.
+Advantages over current technology
+Current radar camera systems are usually between half and two metres in length and weigh up to 200 kg. They cost more than US$1 million on the market and can consume over 1000 watts in electricity per hour, the energy equivalent of a household air-conditioning unit running for an hour.
+
+Known as Synthetic Aperture Radar (SAR), these large radar cameras are often carried by large satellites and aircrafts that produce detailed images of the Earth's surface. Objects longer than a metre, such as cars and boats, can be easily seen by the radar camera mounted on an aircraft flying at a height of 11 kilometres.
+
+Unlike optical cameras which cannot work well at night due to insufficient light or in cloudy conditions, a radar camera uses microwaves (X-band or Ku-band) for its imaging, so it can operate well in all weather conditions and can even penetrate through foliage.
+
+These detailed images from radar cameras can be used for environmental monitoring of disasters like forest fires, volcano eruptions and earthquakes as well as to monitor cities for traffic congestions and urban density.
+
+But the huge size, prohibitive cost and energy consumption are deterrents for use in smaller unmanned aerial vehicles and autonomous vehicles. In comparison, NTU's new radar chip (2mm x 3mm) when packaged into a module measures only 3cm x 4cm x 5cm, weighing less than 100 grams.
+
+Production costs can go as low as US$10,000 per unit, while power consumption ranges from 1 to 200 watts depending on its application, similar to power-efficient LED TVs or a ceiling fan.
+
+It can also capture objects as small as half a metre which is twice as detailed as the conventional radar camera used in large aircrafts or satellites.
+Potential applications of the new radar chip
+Asst Prof Zheng said that when mounted on UAVs, it can take high quality images on demand to monitor traffic conditions or even the coastlines for trespassers.
+
+""Driverless cars will also be able to better scan the environment around them to avoid collisions and navigate more accurately in all weather conditions compared to current laser and optical technologies,"" he added.
+
+""Finally, with the space industry moving towards small satellite systems, such as the six satellites launched by NTU, smaller satellites can now also have the same advanced imaging capabilities previously seen only in the large satellites.""
+
+Large satellites can weigh up to 1,000 kg, but microsatellites weigh only 100 to 200 kg.
+Recognised internationally with strong market interest
+NTU's new radar chip was presented and published at the prestigious International Solid-State Circuits Conference (ISSCC) 2016. Commonly referred to as the ""Olympics of Integrated Circuits Design"", ISSCC is the world's top forum for presenting advances in solid-state circuits and systems and is attended by major industry players.
+
+The chip was developed by Asst Prof Zheng's team of five at NTU's VIRTUS IC Design Centre of Excellence. The group was the first from Singapore to publish in ISSCC and is also the most published local group, with seven papers to date.
+
+NTU's new technology has attracted the attention of many multinational corporations, such as US aerospace company Space X; Netherlands semiconductor company NXP; Japanese electronics giant Panasonic, and French satellite maker Thales.
+
+The next phase will be research in space applications to be carried out at the Smart Small Satellite Systems - Thales in NTU (S4TIN), a joint laboratory between NTU and Europe's largest satellite manufacturer Thales Alenia Space.
+Game changer for Singapore
+Associate Professor Low Kay Soon, Director of NTU's Satellite Research Centre, said the new radar chip will be a game changer in the space industry, which will bolster Singapore's growing reputation as a satellite building nation.
+
+""Monitoring the environment with a clear image using a traditional optical camera is always very challenging due to clouds and changing light conditions,"" said Assoc Prof Low.
+
+""This is especially the case for the tropics where the sky is always cloudy. With a miniature radar-on-chip system, it cuts down the required weight and size of the payload that a satellite needs to carry.
+
+""More significantly, the lower power consumption makes it very suitable for microsatellites such as the X-SAT or VELOX-CI which NTU has launched. For small satellites, there is a limited area to mount the solar panels, which limits its power generation. Consequently the conventional SAR systems cannot be used due to its high power requirements.""
+
+Asst Prof Zheng says it will take another three to six years before NTU's new radar chip is ready for commercial use. He is now working with NTU's innovation and enterprise company, NTUitive to find industry partners to license the technology or to spin off a company.
+
+Director of VIRTUS, NTU Professor Joseph Chang added: ""Singapore is one the very few select countries in the world with advanced technical capabilities to design complex microchips for space applications.""
+
+""NTU professors associated with VIRTUS have received research funding of over S$5 million from Singapore and various countries like the United States, to design microchips for space applications. Recently, two patents have been filed for the novel design of these microchips.""
+
+VIRTUS filed ten patents in the last year alone, for various innovative microchips with applications ranging from image processing to computing.
+
+According to Markets and Markets global forecasts and analysis, the global market for radar systems is estimated to grow to US$24 billion by 2020. Despite being small, they can produce images that are of the same high quality if not better compared to conventional radar cameras. They are also 20 times cheaper to produce and consume at least 75 per cent less power.
+
+Developed over the past three years at NTU, the promising technology has already secured S$2.5 million in research funding from Singapore government agencies.
+
+The radar chip has attracted the attention of several multinational corporations, and is now being researched for use in Unmanned Aerial Vehicles (UAVs) and satellite applications.
+
+Assistant Professor Zheng Yuanjin from NTU's School of Electrical and Electronic Engineering who led the research, said that the size and effectiveness of the chip will open up new applications not possible previously.
+
+""We have significantly shrunk the conventional radar camera into a system that is extremely compact and affordable, yet provides better accuracy. This will enable high resolution imaging radar technology to be used in objects and applications never before possible, like small drones, driverless cars and small satellite systems,"" said Asst Prof Zheng.
+Advantages over current technology
+Current radar camera systems are usually between half and two metres in length and weigh up to 200 kg. They cost more than US$1 million on the market and can consume over 1000 watts in electricity per hour, the energy equivalent of a household air-conditioning unit running for an hour.
+
+Known as Synthetic Aperture Radar (SAR), these large radar cameras are often carried by large satellites and aircrafts that produce detailed images of the Earth's surface. Objects longer than a metre, such as cars and boats, can be easily seen by the radar camera mounted on an aircraft flying at a height of 11 kilometres.
+
+Unlike optical cameras which cannot work well at night due to insufficient light or in cloudy conditions, a radar camera uses microwaves (X-band or Ku-band) for its imaging, so it can operate well in all weather conditions and can even penetrate through foliage.
+
+These detailed images from radar cameras can be used for environmental monitoring of disasters like forest fires, volcano eruptions and earthquakes as well as to monitor cities for traffic congestions and urban density.
+
+But the huge size, prohibitive cost and energy consumption are deterrents for use in smaller unmanned aerial vehicles and autonomous vehicles. In comparison, NTU's new radar chip (2mm x 3mm) when packaged into a module measures only 3cm x 4cm x 5cm, weighing less than 100 grams.
+
+Production costs can go as low as US$10,000 per unit, while power consumption ranges from 1 to 200 watts depending on its application, similar to power-efficient LED TVs or a ceiling fan.
+
+It can also capture objects as small as half a metre which is twice as detailed as the conventional radar camera used in large aircrafts or satellites.
+Potential applications of the new radar chip
+Asst Prof Zheng said that when mounted on UAVs, it can take high quality images on demand to monitor traffic conditions or even the coastlines for trespassers.
+
+""Driverless cars will also be able to better scan the environment around them to avoid collisions and navigate more accurately in all weather conditions compared to current laser and optical technologies,"" he added.
+
+""Finally, with the space industry moving towards small satellite systems, such as the six satellites launched by NTU, smaller satellites can now also have the same advanced imaging capabilities previously seen only in the large satellites.""
+
+Large satellites can weigh up to 1,000 kg, but microsatellites weigh only 100 to 200 kg.
+Recognised internationally with strong market interest
+NTU's new radar chip was presented and published at the prestigious International Solid-State Circuits Conference (ISSCC) 2016. Commonly referred to as the ""Olympics of Integrated Circuits Design"", ISSCC is the world's top forum for presenting advances in solid-state circuits and systems and is attended by major industry players.
+
+The chip was developed by Asst Prof Zheng's team of five at NTU's VIRTUS IC Design Centre of Excellence. The group was the first from Singapore to publish in ISSCC and is also the most published local group, with seven papers to date.
+
+NTU's new technology has attracted the attention of many multinational corporations, such as US aerospace company Space X; Netherlands semiconductor company NXP; Japanese electronics giant Panasonic, and French satellite maker Thales.
+
+The next phase will be research in space applications to be carried out at the Smart Small Satellite Systems - Thales in NTU (S4TIN), a joint laboratory between NTU and Europe's largest satellite manufacturer Thales Alenia Space.
+Game changer for Singapore
+Associate Professor Low Kay Soon, Director of NTU's Satellite Research Centre, said the new radar chip will be a game changer in the space industry, which will bolster Singapore's growing reputation as a satellite building nation.
+
+""Monitoring the environment with a clear image using a traditional optical camera is always very challenging due to clouds and changing light conditions,"" said Assoc Prof Low.
+
+""This is especially the case for the tropics where the sky is always cloudy. With a miniature radar-on-chip system, it cuts down the required weight and size of the payload that a satellite needs to carry.
+
+""More significantly, the lower power consumption makes it very suitable for microsatellites such as the X-SAT or VELOX-CI which NTU has launched. For small satellites, there is a limited area to mount the solar panels, which limits its power generation. Consequently the conventional SAR systems cannot be used due to its high power requirements.""
+
+Asst Prof Zheng says it will take another three to six years before NTU's new radar chip is ready for commercial use. He is now working with NTU's innovation and enterprise company, NTUitive to find industry partners to license the technology or to spin off a company.
+
+Director of VIRTUS, NTU Professor Joseph Chang added: ""Singapore is one the very few select countries in the world with advanced technical capabilities to design complex microchips for space applications.""
+
+""NTU professors associated with VIRTUS have received research funding of over S$5 million from Singapore and various countries like the United States, to design microchips for space applications. Recently, two patents have been filed for the novel design of these microchips.""
+
+VIRTUS filed ten patents in the last year alone, for various innovative microchips with applications ranging from image processing to computing.
+
+According to Markets and Markets global forecasts and analysis, the global market for radar systems is estimated to grow to US$24 billion by 2020. Developed over the past three years at NTU, the promising technology has already secured S$2.5 million in research funding from Singapore government agencies.
+
+The radar chip has attracted the attention of several multinational corporations, and is now being researched for use in Unmanned Aerial Vehicles (UAVs) and satellite applications.
+
+Assistant Professor Zheng Yuanjin from NTU's School of Electrical and Electronic Engineering who led the research, said that the size and effectiveness of the chip will open up new applications not possible previously.
+
+""We have significantly shrunk the conventional radar camera into a system that is extremely compact and affordable, yet provides better accuracy. This will enable high resolution imaging radar technology to be used in objects and applications never before possible, like small drones, driverless cars and small satellite systems,"" said Asst Prof Zheng.
+Advantages over current technology
+Current radar camera systems are usually between half and two metres in length and weigh up to 200 kg. They cost more than US$1 million on the market and can consume over 1000 watts in electricity per hour, the energy equivalent of a household air-conditioning unit running for an hour.
+
+Known as Synthetic Aperture Radar (SAR), these large radar cameras are often carried by large satellites and aircrafts that produce detailed images of the Earth's surface. Objects longer than a metre, such as cars and boats, can be easily seen by the radar camera mounted on an aircraft flying at a height of 11 kilometres.
+
+Unlike optical cameras which cannot work well at night due to insufficient light or in cloudy conditions, a radar camera uses microwaves (X-band or Ku-band) for its imaging, so it can operate well in all weather conditions and can even penetrate through foliage.
+
+These detailed images from radar cameras can be used for environmental monitoring of disasters like forest fires, volcano eruptions and earthquakes as well as to monitor cities for traffic congestions and urban density.
+
+But the huge size, prohibitive cost and energy consumption are deterrents for use in smaller unmanned aerial vehicles and autonomous vehicles. In comparison, NTU's new radar chip (2mm x 3mm) when packaged into a module measures only 3cm x 4cm x 5cm, weighing less than 100 grams.
+
+Production costs can go as low as US$10,000 per unit, while power consumption ranges from 1 to 200 watts depending on its application, similar to power-efficient LED TVs or a ceiling fan.
+
+It can also capture objects as small as half a metre which is twice as detailed as the conventional radar camera used in large aircrafts or satellites.
+Potential applications of the new radar chip
+Asst Prof Zheng said that when mounted on UAVs, it can take high quality images on demand to monitor traffic conditions or even the coastlines for trespassers.
+
+""Driverless cars will also be able to better scan the environment around them to avoid collisions and navigate more accurately in all weather conditions compared to current laser and optical technologies,"" he added.
+
+""Finally, with the space industry moving towards small satellite systems, such as the six satellites launched by NTU, smaller satellites can now also have the same advanced imaging capabilities previously seen only in the large satellites.""
+
+Large satellites can weigh up to 1,000 kg, but microsatellites weigh only 100 to 200 kg.
+Recognised internationally with strong market interest
+NTU's new radar chip was presented and published at the prestigious International Solid-State Circuits Conference (ISSCC) 2016. Commonly referred to as the ""Olympics of Integrated Circuits Design"", ISSCC is the world's top forum for presenting advances in solid-state circuits and systems and is attended by major industry players.
+
+The chip was developed by Asst Prof Zheng's team of five at NTU's VIRTUS IC Design Centre of Excellence. The group was the first from Singapore to publish in ISSCC and is also the most published local group, with seven papers to date.
+
+NTU's new technology has attracted the attention of many multinational corporations, such as US aerospace company Space X; Netherlands semiconductor company NXP; Japanese electronics giant Panasonic, and French satellite maker Thales.
+
+The next phase will be research in space applications to be carried out at the Smart Small Satellite Systems - Thales in NTU (S4TIN), a joint laboratory between NTU and Europe's largest satellite manufacturer Thales Alenia Space.
+Game changer for Singapore
+Associate Professor Low Kay Soon, Director of NTU's Satellite Research Centre, said the new radar chip will be a game changer in the space industry, which will bolster Singapore's growing reputation as a satellite building nation.
+
+""Monitoring the environment with a clear image using a traditional optical camera is always very challenging due to clouds and changing light conditions,"" said Assoc Prof Low.
+
+""This is especially the case for the tropics where the sky is always cloudy. With a miniature radar-on-chip system, it cuts down the required weight and size of the payload that a satellite needs to carry.
+
+""More significantly, the lower power consumption makes it very suitable for microsatellites such as the X-SAT or VELOX-CI which NTU has launched. For small satellites, there is a limited area to mount the solar panels, which limits its power generation. Consequently the conventional SAR systems cannot be used due to its high power requirements.""
+
+Asst Prof Zheng says it will take another three to six years before NTU's new radar chip is ready for commercial use. He is now working with NTU's innovation and enterprise company, NTUitive to find industry partners to license the technology or to spin off a company.
+
+Director of VIRTUS, NTU Professor Joseph Chang added: ""Singapore is one the very few select countries in the world with advanced technical capabilities to design complex microchips for space applications.""
+
+""NTU professors associated with VIRTUS have received research funding of over S$5 million from Singapore and various countries like the United States, to design microchips for space applications. Recently, two patents have been filed for the novel design of these microchips.""
+
+VIRTUS filed ten patents in the last year alone, for various innovative microchips with applications ranging from image processing to computing.
+
+According to Markets and Markets global forecasts and analysis, the global market for radar systems is estimated to grow to US$24 billion by 2020. The radar chip has attracted the attention of several multinational corporations, and is now being researched for use in Unmanned Aerial Vehicles (UAVs) and satellite applications.
+
+Assistant Professor Zheng Yuanjin from NTU's School of Electrical and Electronic Engineering who led the research, said that the size and effectiveness of the chip will open up new applications not possible previously.
+
+""We have significantly shrunk the conventional radar camera into a system that is extremely compact and affordable, yet provides better accuracy. This will enable high resolution imaging radar technology to be used in objects and applications never before possible, like small drones, driverless cars and small satellite systems,"" said Asst Prof Zheng.
+Advantages over current technology
+Current radar camera systems are usually between half and two metres in length and weigh up to 200 kg. They cost more than US$1 million on the market and can consume over 1000 watts in electricity per hour, the energy equivalent of a household air-conditioning unit running for an hour.
+
+Known as Synthetic Aperture Radar (SAR), these large radar cameras are often carried by large satellites and aircrafts that produce detailed images of the Earth's surface. Objects longer than a metre, such as cars and boats, can be easily seen by the radar camera mounted on an aircraft flying at a height of 11 kilometres.
+
+Unlike optical cameras which cannot work well at night due to insufficient light or in cloudy conditions, a radar camera uses microwaves (X-band or Ku-band) for its imaging, so it can operate well in all weather conditions and can even penetrate through foliage.
+
+These detailed images from radar cameras can be used for environmental monitoring of disasters like forest fires, volcano eruptions and earthquakes as well as to monitor cities for traffic congestions and urban density.
+
+But the huge size, prohibitive cost and energy consumption are deterrents for use in smaller unmanned aerial vehicles and autonomous vehicles. In comparison, NTU's new radar chip (2mm x 3mm) when packaged into a module measures only 3cm x 4cm x 5cm, weighing less than 100 grams.
+
+Production costs can go as low as US$10,000 per unit, while power consumption ranges from 1 to 200 watts depending on its application, similar to power-efficient LED TVs or a ceiling fan.
+
+It can also capture objects as small as half a metre which is twice as detailed as the conventional radar camera used in large aircrafts or satellites.
+Potential applications of the new radar chip
+Asst Prof Zheng said that when mounted on UAVs, it can take high quality images on demand to monitor traffic conditions or even the coastlines for trespassers.
+
+""Driverless cars will also be able to better scan the environment around them to avoid collisions and navigate more accurately in all weather conditions compared to current laser and optical technologies,"" he added.
+
+""Finally, with the space industry moving towards small satellite systems, such as the six satellites launched by NTU, smaller satellites can now also have the same advanced imaging capabilities previously seen only in the large satellites.""
+
+Large satellites can weigh up to 1,000 kg, but microsatellites weigh only 100 to 200 kg.
+Recognised internationally with strong market interest
+NTU's new radar chip was presented and published at the prestigious International Solid-State Circuits Conference (ISSCC) 2016. Commonly referred to as the ""Olympics of Integrated Circuits Design"", ISSCC is the world's top forum for presenting advances in solid-state circuits and systems and is attended by major industry players.
+
+The chip was developed by Asst Prof Zheng's team of five at NTU's VIRTUS IC Design Centre of Excellence. The group was the first from Singapore to publish in ISSCC and is also the most published local group, with seven papers to date.
+
+NTU's new technology has attracted the attention of many multinational corporations, such as US aerospace company Space X; Netherlands semiconductor company NXP; Japanese electronics giant Panasonic, and French satellite maker Thales.
+
+The next phase will be research in space applications to be carried out at the Smart Small Satellite Systems - Thales in NTU (S4TIN), a joint laboratory between NTU and Europe's largest satellite manufacturer Thales Alenia Space.
+Game changer for Singapore
+Associate Professor Low Kay Soon, Director of NTU's Satellite Research Centre, said the new radar chip will be a game changer in the space industry, which will bolster Singapore's growing reputation as a satellite building nation.
+
+""Monitoring the environment with a clear image using a traditional optical camera is always very challenging due to clouds and changing light conditions,"" said Assoc Prof Low.
+
+""This is especially the case for the tropics where the sky is always cloudy. With a miniature radar-on-chip system, it cuts down the required weight and size of the payload that a satellite needs to carry.
+
+""More significantly, the lower power consumption makes it very suitable for microsatellites such as the X-SAT or VELOX-CI which NTU has launched. For small satellites, there is a limited area to mount the solar panels, which limits its power generation. Consequently the conventional SAR systems cannot be used due to its high power requirements.""
+
+Asst Prof Zheng says it will take another three to six years before NTU's new radar chip is ready for commercial use. He is now working with NTU's innovation and enterprise company, NTUitive to find industry partners to license the technology or to spin off a company.
+
+Director of VIRTUS, NTU Professor Joseph Chang added: ""Singapore is one the very few select countries in the world with advanced technical capabilities to design complex microchips for space applications.""
+
+""NTU professors associated with VIRTUS have received research funding of over S$5 million from Singapore and various countries like the United States, to design microchips for space applications. Recently, two patents have been filed for the novel design of these microchips.""
+
+VIRTUS filed ten patents in the last year alone, for various innovative microchips with applications ranging from image processing to computing.
+
+According to Markets and Markets global forecasts and analysis, the global market for radar systems is estimated to grow to US$24 billion by 2020. Assistant Professor Zheng Yuanjin from NTU's School of Electrical and Electronic Engineering who led the research, said that the size and effectiveness of the chip will open up new applications not possible previously.
+
+""We have significantly shrunk the conventional radar camera into a system that is extremely compact and affordable, yet provides better accuracy. This will enable high resolution imaging radar technology to be used in objects and applications never before possible, like small drones, driverless cars and small satellite systems,"" said Asst Prof Zheng.
+Advantages over current technology
+Current radar camera systems are usually between half and two metres in length and weigh up to 200 kg. They cost more than US$1 million on the market and can consume over 1000 watts in electricity per hour, the energy equivalent of a household air-conditioning unit running for an hour.
+
+Known as Synthetic Aperture Radar (SAR), these large radar cameras are often carried by large satellites and aircrafts that produce detailed images of the Earth's surface. Objects longer than a metre, such as cars and boats, can be easily seen by the radar camera mounted on an aircraft flying at a height of 11 kilometres.
+
+Unlike optical cameras which cannot work well at night due to insufficient light or in cloudy conditions, a radar camera uses microwaves (X-band or Ku-band) for its imaging, so it can operate well in all weather conditions and can even penetrate through foliage.
+
+These detailed images from radar cameras can be used for environmental monitoring of disasters like forest fires, volcano eruptions and earthquakes as well as to monitor cities for traffic congestions and urban density.
+
+But the huge size, prohibitive cost and energy consumption are deterrents for use in smaller unmanned aerial vehicles and autonomous vehicles. In comparison, NTU's new radar chip (2mm x 3mm) when packaged into a module measures only 3cm x 4cm x 5cm, weighing less than 100 grams.
+
+Production costs can go as low as US$10,000 per unit, while power consumption ranges from 1 to 200 watts depending on its application, similar to power-efficient LED TVs or a ceiling fan.
+
+It can also capture objects as small as half a metre which is twice as detailed as the conventional radar camera used in large aircrafts or satellites.
+Potential applications of the new radar chip
+Asst Prof Zheng said that when mounted on UAVs, it can take high quality images on demand to monitor traffic conditions or even the coastlines for trespassers.
+
+""Driverless cars will also be able to better scan the environment around them to avoid collisions and navigate more accurately in all weather conditions compared to current laser and optical technologies,"" he added.
+
+""Finally, with the space industry moving towards small satellite systems, such as the six satellites launched by NTU, smaller satellites can now also have the same advanced imaging capabilities previously seen only in the large satellites.""
+
+Large satellites can weigh up to 1,000 kg, but microsatellites weigh only 100 to 200 kg.
+Recognised internationally with strong market interest
+NTU's new radar chip was presented and published at the prestigious International Solid-State Circuits Conference (ISSCC) 2016. Commonly referred to as the ""Olympics of Integrated Circuits Design"", ISSCC is the world's top forum for presenting advances in solid-state circuits and systems and is attended by major industry players.
+
+The chip was developed by Asst Prof Zheng's team of five at NTU's VIRTUS IC Design Centre of Excellence. The group was the first from Singapore to publish in ISSCC and is also the most published local group, with seven papers to date.
+
+NTU's new technology has attracted the attention of many multinational corporations, such as US aerospace company Space X; Netherlands semiconductor company NXP; Japanese electronics giant Panasonic, and French satellite maker Thales.
+
+The next phase will be research in space applications to be carried out at the Smart Small Satellite Systems - Thales in NTU (S4TIN), a joint laboratory between NTU and Europe's largest satellite manufacturer Thales Alenia Space.
+Game changer for Singapore
+Associate Professor Low Kay Soon, Director of NTU's Satellite Research Centre, said the new radar chip will be a game changer in the space industry, which will bolster Singapore's growing reputation as a satellite building nation.
+
+""Monitoring the environment with a clear image using a traditional optical camera is always very challenging due to clouds and changing light conditions,"" said Assoc Prof Low.
+
+""This is especially the case for the tropics where the sky is always cloudy. With a miniature radar-on-chip system, it cuts down the required weight and size of the payload that a satellite needs to carry.
+
+""More significantly, the lower power consumption makes it very suitable for microsatellites such as the X-SAT or VELOX-CI which NTU has launched. For small satellites, there is a limited area to mount the solar panels, which limits its power generation. Consequently the conventional SAR systems cannot be used due to its high power requirements.""
+
+Asst Prof Zheng says it will take another three to six years before NTU's new radar chip is ready for commercial use. He is now working with NTU's innovation and enterprise company, NTUitive to find industry partners to license the technology or to spin off a company.
+
+Director of VIRTUS, NTU Professor Joseph Chang added: ""Singapore is one the very few select countries in the world with advanced technical capabilities to design complex microchips for space applications.""
+
+""NTU professors associated with VIRTUS have received research funding of over S$5 million from Singapore and various countries like the United States, to design microchips for space applications. Recently, two patents have been filed for the novel design of these microchips.""
+
+VIRTUS filed ten patents in the last year alone, for various innovative microchips with applications ranging from image processing to computing.
+
+According to Markets and Markets global forecasts and analysis, the global market for radar systems is estimated to grow to US$24 billion by 2020. ""We have significantly shrunk the conventional radar camera into a system that is extremely compact and affordable, yet provides better accuracy. This will enable high resolution imaging radar technology to be used in objects and applications never before possible, like small drones, driverless cars and small satellite systems,"" said Asst Prof Zheng.
+Advantages over current technology
+Current radar camera systems are usually between half and two metres in length and weigh up to 200 kg. They cost more than US$1 million on the market and can consume over 1000 watts in electricity per hour, the energy equivalent of a household air-conditioning unit running for an hour.
+
+Known as Synthetic Aperture Radar (SAR), these large radar cameras are often carried by large satellites and aircrafts that produce detailed images of the Earth's surface. Objects longer than a metre, such as cars and boats, can be easily seen by the radar camera mounted on an aircraft flying at a height of 11 kilometres.
+
+Unlike optical cameras which cannot work well at night due to insufficient light or in cloudy conditions, a radar camera uses microwaves (X-band or Ku-band) for its imaging, so it can operate well in all weather conditions and can even penetrate through foliage.
+
+These detailed images from radar cameras can be used for environmental monitoring of disasters like forest fires, volcano eruptions and earthquakes as well as to monitor cities for traffic congestions and urban density.
+
+But the huge size, prohibitive cost and energy consumption are deterrents for use in smaller unmanned aerial vehicles and autonomous vehicles. In comparison, NTU's new radar chip (2mm x 3mm) when packaged into a module measures only 3cm x 4cm x 5cm, weighing less than 100 grams.
+
+Production costs can go as low as US$10,000 per unit, while power consumption ranges from 1 to 200 watts depending on its application, similar to power-efficient LED TVs or a ceiling fan.
+
+It can also capture objects as small as half a metre which is twice as detailed as the conventional radar camera used in large aircrafts or satellites.
+Potential applications of the new radar chip
+Asst Prof Zheng said that when mounted on UAVs, it can take high quality images on demand to monitor traffic conditions or even the coastlines for trespassers.
+
+""Driverless cars will also be able to better scan the environment around them to avoid collisions and navigate more accurately in all weather conditions compared to current laser and optical technologies,"" he added.
+
+""Finally, with the space industry moving towards small satellite systems, such as the six satellites launched by NTU, smaller satellites can now also have the same advanced imaging capabilities previously seen only in the large satellites.""
+
+Large satellites can weigh up to 1,000 kg, but microsatellites weigh only 100 to 200 kg.
+Recognised internationally with strong market interest
+NTU's new radar chip was presented and published at the prestigious International Solid-State Circuits Conference (ISSCC) 2016. Commonly referred to as the ""Olympics of Integrated Circuits Design"", ISSCC is the world's top forum for presenting advances in solid-state circuits and systems and is attended by major industry players.
+
+The chip was developed by Asst Prof Zheng's team of five at NTU's VIRTUS IC Design Centre of Excellence. The group was the first from Singapore to publish in ISSCC and is also the most published local group, with seven papers to date.
+
+NTU's new technology has attracted the attention of many multinational corporations, such as US aerospace company Space X; Netherlands semiconductor company NXP; Japanese electronics giant Panasonic, and French satellite maker Thales.
+
+The next phase will be research in space applications to be carried out at the Smart Small Satellite Systems - Thales in NTU (S4TIN), a joint laboratory between NTU and Europe's largest satellite manufacturer Thales Alenia Space.
+Game changer for Singapore
+Associate Professor Low Kay Soon, Director of NTU's Satellite Research Centre, said the new radar chip will be a game changer in the space industry, which will bolster Singapore's growing reputation as a satellite building nation.
+
+""Monitoring the environment with a clear image using a traditional optical camera is always very challenging due to clouds and changing light conditions,"" said Assoc Prof Low.
+
+""This is especially the case for the tropics where the sky is always cloudy. With a miniature radar-on-chip system, it cuts down the required weight and size of the payload that a satellite needs to carry.
+
+""More significantly, the lower power consumption makes it very suitable for microsatellites such as the X-SAT or VELOX-CI which NTU has launched. For small satellites, there is a limited area to mount the solar panels, which limits its power generation. Consequently the conventional SAR systems cannot be used due to its high power requirements.""
+
+Asst Prof Zheng says it will take another three to six years before NTU's new radar chip is ready for commercial use. He is now working with NTU's innovation and enterprise company, NTUitive to find industry partners to license the technology or to spin off a company.
+
+Director of VIRTUS, NTU Professor Joseph Chang added: ""Singapore is one the very few select countries in the world with advanced technical capabilities to design complex microchips for space applications.""
+
+""NTU professors associated with VIRTUS have received research funding of over S$5 million from Singapore and various countries like the United States, to design microchips for space applications. Recently, two patents have been filed for the novel design of these microchips.""
+
+VIRTUS filed ten patents in the last year alone, for various innovative microchips with applications ranging from image processing to computing.
+
+According to Markets and Markets global forecasts and analysis, the global market for radar systems is estimated to grow to US$24 billion by 2020. Advantages over current technology
+Current radar camera systems are usually between half and two metres in length and weigh up to 200 kg. They cost more than US$1 million on the market and can consume over 1000 watts in electricity per hour, the energy equivalent of a household air-conditioning unit running for an hour.
+
+Known as Synthetic Aperture Radar (SAR), these large radar cameras are often carried by large satellites and aircrafts that produce detailed images of the Earth's surface. Objects longer than a metre, such as cars and boats, can be easily seen by the radar camera mounted on an aircraft flying at a height of 11 kilometres.
+
+Unlike optical cameras which cannot work well at night due to insufficient light or in cloudy conditions, a radar camera uses microwaves (X-band or Ku-band) for its imaging, so it can operate well in all weather conditions and can even penetrate through foliage.
+
+These detailed images from radar cameras can be used for environmental monitoring of disasters like forest fires, volcano eruptions and earthquakes as well as to monitor cities for traffic congestions and urban density.
+
+But the huge size, prohibitive cost and energy consumption are deterrents for use in smaller unmanned aerial vehicles and autonomous vehicles. In comparison, NTU's new radar chip (2mm x 3mm) when packaged into a module measures only 3cm x 4cm x 5cm, weighing less than 100 grams.
+
+Production costs can go as low as US$10,000 per unit, while power consumption ranges from 1 to 200 watts depending on its application, similar to power-efficient LED TVs or a ceiling fan.
+
+It can also capture objects as small as half a metre which is twice as detailed as the conventional radar camera used in large aircrafts or satellites.
+Potential applications of the new radar chip
+Asst Prof Zheng said that when mounted on UAVs, it can take high quality images on demand to monitor traffic conditions or even the coastlines for trespassers.
+
+""Driverless cars will also be able to better scan the environment around them to avoid collisions and navigate more accurately in all weather conditions compared to current laser and optical technologies,"" he added.
+
+""Finally, with the space industry moving towards small satellite systems, such as the six satellites launched by NTU, smaller satellites can now also have the same advanced imaging capabilities previously seen only in the large satellites.""
+
+Large satellites can weigh up to 1,000 kg, but microsatellites weigh only 100 to 200 kg.
+Recognised internationally with strong market interest
+NTU's new radar chip was presented and published at the prestigious International Solid-State Circuits Conference (ISSCC) 2016. Commonly referred to as the ""Olympics of Integrated Circuits Design"", ISSCC is the world's top forum for presenting advances in solid-state circuits and systems and is attended by major industry players.
+
+The chip was developed by Asst Prof Zheng's team of five at NTU's VIRTUS IC Design Centre of Excellence. The group was the first from Singapore to publish in ISSCC and is also the most published local group, with seven papers to date.
+
+NTU's new technology has attracted the attention of many multinational corporations, such as US aerospace company Space X; Netherlands semiconductor company NXP; Japanese electronics giant Panasonic, and French satellite maker Thales.
+
+The next phase will be research in space applications to be carried out at the Smart Small Satellite Systems - Thales in NTU (S4TIN), a joint laboratory between NTU and Europe's largest satellite manufacturer Thales Alenia Space.
+Game changer for Singapore
+Associate Professor Low Kay Soon, Director of NTU's Satellite Research Centre, said the new radar chip will be a game changer in the space industry, which will bolster Singapore's growing reputation as a satellite building nation.
+
+""Monitoring the environment with a clear image using a traditional optical camera is always very challenging due to clouds and changing light conditions,"" said Assoc Prof Low.
+
+""This is especially the case for the tropics where the sky is always cloudy. With a miniature radar-on-chip system, it cuts down the required weight and size of the payload that a satellite needs to carry.
+
+""More significantly, the lower power consumption makes it very suitable for microsatellites such as the X-SAT or VELOX-CI which NTU has launched. For small satellites, there is a limited area to mount the solar panels, which limits its power generation. Consequently the conventional SAR systems cannot be used due to its high power requirements.""
+
+Asst Prof Zheng says it will take another three to six years before NTU's new radar chip is ready for commercial use. He is now working with NTU's innovation and enterprise company, NTUitive to find industry partners to license the technology or to spin off a company.
+
+Director of VIRTUS, NTU Professor Joseph Chang added: ""Singapore is one the very few select countries in the world with advanced technical capabilities to design complex microchips for space applications.""
+
+""NTU professors associated with VIRTUS have received research funding of over S$5 million from Singapore and various countries like the United States, to design microchips for space applications. Recently, two patents have been filed for the novel design of these microchips.""
+
+VIRTUS filed ten patents in the last year alone, for various innovative microchips with applications ranging from image processing to computing.
+
+According to Markets and Markets global forecasts and analysis, the global market for radar systems is estimated to grow to US$24 billion by 2020. Known as Synthetic Aperture Radar (SAR), these large radar cameras are often carried by large satellites and aircrafts that produce detailed images of the Earth's surface. Objects longer than a metre, such as cars and boats, can be easily seen by the radar camera mounted on an aircraft flying at a height of 11 kilometres.
+
+Unlike optical cameras which cannot work well at night due to insufficient light or in cloudy conditions, a radar camera uses microwaves (X-band or Ku-band) for its imaging, so it can operate well in all weather conditions and can even penetrate through foliage.
+
+These detailed images from radar cameras can be used for environmental monitoring of disasters like forest fires, volcano eruptions and earthquakes as well as to monitor cities for traffic congestions and urban density.
+
+But the huge size, prohibitive cost and energy consumption are deterrents for use in smaller unmanned aerial vehicles and autonomous vehicles. In comparison, NTU's new radar chip (2mm x 3mm) when packaged into a module measures only 3cm x 4cm x 5cm, weighing less than 100 grams.
+
+Production costs can go as low as US$10,000 per unit, while power consumption ranges from 1 to 200 watts depending on its application, similar to power-efficient LED TVs or a ceiling fan.
+
+It can also capture objects as small as half a metre which is twice as detailed as the conventional radar camera used in large aircrafts or satellites.
+Potential applications of the new radar chip
+Asst Prof Zheng said that when mounted on UAVs, it can take high quality images on demand to monitor traffic conditions or even the coastlines for trespassers.
+
+""Driverless cars will also be able to better scan the environment around them to avoid collisions and navigate more accurately in all weather conditions compared to current laser and optical technologies,"" he added.
+
+""Finally, with the space industry moving towards small satellite systems, such as the six satellites launched by NTU, smaller satellites can now also have the same advanced imaging capabilities previously seen only in the large satellites.""
+
+Large satellites can weigh up to 1,000 kg, but microsatellites weigh only 100 to 200 kg.
+Recognised internationally with strong market interest
+NTU's new radar chip was presented and published at the prestigious International Solid-State Circuits Conference (ISSCC) 2016. Commonly referred to as the ""Olympics of Integrated Circuits Design"", ISSCC is the world's top forum for presenting advances in solid-state circuits and systems and is attended by major industry players.
+
+The chip was developed by Asst Prof Zheng's team of five at NTU's VIRTUS IC Design Centre of Excellence. The group was the first from Singapore to publish in ISSCC and is also the most published local group, with seven papers to date.
+
+NTU's new technology has attracted the attention of many multinational corporations, such as US aerospace company Space X; Netherlands semiconductor company NXP; Japanese electronics giant Panasonic, and French satellite maker Thales.
+
+The next phase will be research in space applications to be carried out at the Smart Small Satellite Systems - Thales in NTU (S4TIN), a joint laboratory between NTU and Europe's largest satellite manufacturer Thales Alenia Space.
+Game changer for Singapore
+Associate Professor Low Kay Soon, Director of NTU's Satellite Research Centre, said the new radar chip will be a game changer in the space industry, which will bolster Singapore's growing reputation as a satellite building nation.
+
+""Monitoring the environment with a clear image using a traditional optical camera is always very challenging due to clouds and changing light conditions,"" said Assoc Prof Low.
+
+""This is especially the case for the tropics where the sky is always cloudy. With a miniature radar-on-chip system, it cuts down the required weight and size of the payload that a satellite needs to carry.
+
+""More significantly, the lower power consumption makes it very suitable for microsatellites such as the X-SAT or VELOX-CI which NTU has launched. For small satellites, there is a limited area to mount the solar panels, which limits its power generation. Consequently the conventional SAR systems cannot be used due to its high power requirements.""
+
+Asst Prof Zheng says it will take another three to six years before NTU's new radar chip is ready for commercial use. He is now working with NTU's innovation and enterprise company, NTUitive to find industry partners to license the technology or to spin off a company.
+
+Director of VIRTUS, NTU Professor Joseph Chang added: ""Singapore is one the very few select countries in the world with advanced technical capabilities to design complex microchips for space applications.""
+
+""NTU professors associated with VIRTUS have received research funding of over S$5 million from Singapore and various countries like the United States, to design microchips for space applications. Recently, two patents have been filed for the novel design of these microchips.""
+
+VIRTUS filed ten patents in the last year alone, for various innovative microchips with applications ranging from image processing to computing.
+
+According to Markets and Markets global forecasts and analysis, the global market for radar systems is estimated to grow to US$24 billion by 2020. Unlike optical cameras which cannot work well at night due to insufficient light or in cloudy conditions, a radar camera uses microwaves (X-band or Ku-band) for its imaging, so it can operate well in all weather conditions and can even penetrate through foliage.
+
+These detailed images from radar cameras can be used for environmental monitoring of disasters like forest fires, volcano eruptions and earthquakes as well as to monitor cities for traffic congestions and urban density.
+
+But the huge size, prohibitive cost and energy consumption are deterrents for use in smaller unmanned aerial vehicles and autonomous vehicles. In comparison, NTU's new radar chip (2mm x 3mm) when packaged into a module measures only 3cm x 4cm x 5cm, weighing less than 100 grams.
+
+Production costs can go as low as US$10,000 per unit, while power consumption ranges from 1 to 200 watts depending on its application, similar to power-efficient LED TVs or a ceiling fan.
+
+It can also capture objects as small as half a metre which is twice as detailed as the conventional radar camera used in large aircrafts or satellites.
+Potential applications of the new radar chip
+Asst Prof Zheng said that when mounted on UAVs, it can take high quality images on demand to monitor traffic conditions or even the coastlines for trespassers.
+
+""Driverless cars will also be able to better scan the environment around them to avoid collisions and navigate more accurately in all weather conditions compared to current laser and optical technologies,"" he added.
+
+""Finally, with the space industry moving towards small satellite systems, such as the six satellites launched by NTU, smaller satellites can now also have the same advanced imaging capabilities previously seen only in the large satellites.""
+
+Large satellites can weigh up to 1,000 kg, but microsatellites weigh only 100 to 200 kg.
+Recognised internationally with strong market interest
+NTU's new radar chip was presented and published at the prestigious International Solid-State Circuits Conference (ISSCC) 2016. Commonly referred to as the ""Olympics of Integrated Circuits Design"", ISSCC is the world's top forum for presenting advances in solid-state circuits and systems and is attended by major industry players.
+
+The chip was developed by Asst Prof Zheng's team of five at NTU's VIRTUS IC Design Centre of Excellence. The group was the first from Singapore to publish in ISSCC and is also the most published local group, with seven papers to date.
+
+NTU's new technology has attracted the attention of many multinational corporations, such as US aerospace company Space X; Netherlands semiconductor company NXP; Japanese electronics giant Panasonic, and French satellite maker Thales.
+
+The next phase will be research in space applications to be carried out at the Smart Small Satellite Systems - Thales in NTU (S4TIN), a joint laboratory between NTU and Europe's largest satellite manufacturer Thales Alenia Space.
+Game changer for Singapore
+Associate Professor Low Kay Soon, Director of NTU's Satellite Research Centre, said the new radar chip will be a game changer in the space industry, which will bolster Singapore's growing reputation as a satellite building nation.
+
+""Monitoring the environment with a clear image using a traditional optical camera is always very challenging due to clouds and changing light conditions,"" said Assoc Prof Low.
+
+""This is especially the case for the tropics where the sky is always cloudy. With a miniature radar-on-chip system, it cuts down the required weight and size of the payload that a satellite needs to carry.
+
+""More significantly, the lower power consumption makes it very suitable for microsatellites such as the X-SAT or VELOX-CI which NTU has launched. For small satellites, there is a limited area to mount the solar panels, which limits its power generation. Consequently the conventional SAR systems cannot be used due to its high power requirements.""
+
+Asst Prof Zheng says it will take another three to six years before NTU's new radar chip is ready for commercial use. He is now working with NTU's innovation and enterprise company, NTUitive to find industry partners to license the technology or to spin off a company.
+
+Director of VIRTUS, NTU Professor Joseph Chang added: ""Singapore is one the very few select countries in the world with advanced technical capabilities to design complex microchips for space applications.""
+
+""NTU professors associated with VIRTUS have received research funding of over S$5 million from Singapore and various countries like the United States, to design microchips for space applications. Recently, two patents have been filed for the novel design of these microchips.""
+
+VIRTUS filed ten patents in the last year alone, for various innovative microchips with applications ranging from image processing to computing.
+
+According to Markets and Markets global forecasts and analysis, the global market for radar systems is estimated to grow to US$24 billion by 2020. These detailed images from radar cameras can be used for environmental monitoring of disasters like forest fires, volcano eruptions and earthquakes as well as to monitor cities for traffic congestions and urban density.
+
+But the huge size, prohibitive cost and energy consumption are deterrents for use in smaller unmanned aerial vehicles and autonomous vehicles. In comparison, NTU's new radar chip (2mm x 3mm) when packaged into a module measures only 3cm x 4cm x 5cm, weighing less than 100 grams.
+
+Production costs can go as low as US$10,000 per unit, while power consumption ranges from 1 to 200 watts depending on its application, similar to power-efficient LED TVs or a ceiling fan.
+
+It can also capture objects as small as half a metre which is twice as detailed as the conventional radar camera used in large aircrafts or satellites.
+Potential applications of the new radar chip
+Asst Prof Zheng said that when mounted on UAVs, it can take high quality images on demand to monitor traffic conditions or even the coastlines for trespassers.
+
+""Driverless cars will also be able to better scan the environment around them to avoid collisions and navigate more accurately in all weather conditions compared to current laser and optical technologies,"" he added.
+
+""Finally, with the space industry moving towards small satellite systems, such as the six satellites launched by NTU, smaller satellites can now also have the same advanced imaging capabilities previously seen only in the large satellites.""
+
+Large satellites can weigh up to 1,000 kg, but microsatellites weigh only 100 to 200 kg.
+Recognised internationally with strong market interest
+NTU's new radar chip was presented and published at the prestigious International Solid-State Circuits Conference (ISSCC) 2016. Commonly referred to as the ""Olympics of Integrated Circuits Design"", ISSCC is the world's top forum for presenting advances in solid-state circuits and systems and is attended by major industry players.
+
+The chip was developed by Asst Prof Zheng's team of five at NTU's VIRTUS IC Design Centre of Excellence. The group was the first from Singapore to publish in ISSCC and is also the most published local group, with seven papers to date.
+
+NTU's new technology has attracted the attention of many multinational corporations, such as US aerospace company Space X; Netherlands semiconductor company NXP; Japanese electronics giant Panasonic, and French satellite maker Thales.
+
+The next phase will be research in space applications to be carried out at the Smart Small Satellite Systems - Thales in NTU (S4TIN), a joint laboratory between NTU and Europe's largest satellite manufacturer Thales Alenia Space.
+Game changer for Singapore
+Associate Professor Low Kay Soon, Director of NTU's Satellite Research Centre, said the new radar chip will be a game changer in the space industry, which will bolster Singapore's growing reputation as a satellite building nation.
+
+""Monitoring the environment with a clear image using a traditional optical camera is always very challenging due to clouds and changing light conditions,"" said Assoc Prof Low.
+
+""This is especially the case for the tropics where the sky is always cloudy. With a miniature radar-on-chip system, it cuts down the required weight and size of the payload that a satellite needs to carry.
+
+""More significantly, the lower power consumption makes it very suitable for microsatellites such as the X-SAT or VELOX-CI which NTU has launched. For small satellites, there is a limited area to mount the solar panels, which limits its power generation. Consequently the conventional SAR systems cannot be used due to its high power requirements.""
+
+Asst Prof Zheng says it will take another three to six years before NTU's new radar chip is ready for commercial use. He is now working with NTU's innovation and enterprise company, NTUitive to find industry partners to license the technology or to spin off a company.
+
+Director of VIRTUS, NTU Professor Joseph Chang added: ""Singapore is one the very few select countries in the world with advanced technical capabilities to design complex microchips for space applications.""
+
+""NTU professors associated with VIRTUS have received research funding of over S$5 million from Singapore and various countries like the United States, to design microchips for space applications. Recently, two patents have been filed for the novel design of these microchips.""
+
+VIRTUS filed ten patents in the last year alone, for various innovative microchips with applications ranging from image processing to computing.
+
+According to Markets and Markets global forecasts and analysis, the global market for radar systems is estimated to grow to US$24 billion by 2020. But the huge size, prohibitive cost and energy consumption are deterrents for use in smaller unmanned aerial vehicles and autonomous vehicles. In comparison, NTU's new radar chip (2mm x 3mm) when packaged into a module measures only 3cm x 4cm x 5cm, weighing less than 100 grams.
+
+Production costs can go as low as US$10,000 per unit, while power consumption ranges from 1 to 200 watts depending on its application, similar to power-efficient LED TVs or a ceiling fan.
+
+It can also capture objects as small as half a metre which is twice as detailed as the conventional radar camera used in large aircrafts or satellites.
+Potential applications of the new radar chip
+Asst Prof Zheng said that when mounted on UAVs, it can take high quality images on demand to monitor traffic conditions or even the coastlines for trespassers.
+
+""Driverless cars will also be able to better scan the environment around them to avoid collisions and navigate more accurately in all weather conditions compared to current laser and optical technologies,"" he added.
+
+""Finally, with the space industry moving towards small satellite systems, such as the six satellites launched by NTU, smaller satellites can now also have the same advanced imaging capabilities previously seen only in the large satellites.""
+
+Large satellites can weigh up to 1,000 kg, but microsatellites weigh only 100 to 200 kg.
+Recognised internationally with strong market interest
+NTU's new radar chip was presented and published at the prestigious International Solid-State Circuits Conference (ISSCC) 2016. Commonly referred to as the ""Olympics of Integrated Circuits Design"", ISSCC is the world's top forum for presenting advances in solid-state circuits and systems and is attended by major industry players.
+
+The chip was developed by Asst Prof Zheng's team of five at NTU's VIRTUS IC Design Centre of Excellence. The group was the first from Singapore to publish in ISSCC and is also the most published local group, with seven papers to date.
+
+NTU's new technology has attracted the attention of many multinational corporations, such as US aerospace company Space X; Netherlands semiconductor company NXP; Japanese electronics giant Panasonic, and French satellite maker Thales.
+
+The next phase will be research in space applications to be carried out at the Smart Small Satellite Systems - Thales in NTU (S4TIN), a joint laboratory between NTU and Europe's largest satellite manufacturer Thales Alenia Space.
+Game changer for Singapore
+Associate Professor Low Kay Soon, Director of NTU's Satellite Research Centre, said the new radar chip will be a game changer in the space industry, which will bolster Singapore's growing reputation as a satellite building nation.
+
+""Monitoring the environment with a clear image using a traditional optical camera is always very challenging due to clouds and changing light conditions,"" said Assoc Prof Low.
+
+""This is especially the case for the tropics where the sky is always cloudy. With a miniature radar-on-chip system, it cuts down the required weight and size of the payload that a satellite needs to carry.
+
+""More significantly, the lower power consumption makes it very suitable for microsatellites such as the X-SAT or VELOX-CI which NTU has launched. For small satellites, there is a limited area to mount the solar panels, which limits its power generation. Consequently the conventional SAR systems cannot be used due to its high power requirements.""
+
+Asst Prof Zheng says it will take another three to six years before NTU's new radar chip is ready for commercial use. He is now working with NTU's innovation and enterprise company, NTUitive to find industry partners to license the technology or to spin off a company.
+
+Director of VIRTUS, NTU Professor Joseph Chang added: ""Singapore is one the very few select countries in the world with advanced technical capabilities to design complex microchips for space applications.""
+
+""NTU professors associated with VIRTUS have received research funding of over S$5 million from Singapore and various countries like the United States, to design microchips for space applications. Recently, two patents have been filed for the novel design of these microchips.""
+
+VIRTUS filed ten patents in the last year alone, for various innovative microchips with applications ranging from image processing to computing.
+
+According to Markets and Markets global forecasts and analysis, the global market for radar systems is estimated to grow to US$24 billion by 2020. Production costs can go as low as US$10,000 per unit, while power consumption ranges from 1 to 200 watts depending on its application, similar to power-efficient LED TVs or a ceiling fan.
+
+It can also capture objects as small as half a metre which is twice as detailed as the conventional radar camera used in large aircrafts or satellites.
+Potential applications of the new radar chip
+Asst Prof Zheng said that when mounted on UAVs, it can take high quality images on demand to monitor traffic conditions or even the coastlines for trespassers.
+
+""Driverless cars will also be able to better scan the environment around them to avoid collisions and navigate more accurately in all weather conditions compared to current laser and optical technologies,"" he added.
+
+""Finally, with the space industry moving towards small satellite systems, such as the six satellites launched by NTU, smaller satellites can now also have the same advanced imaging capabilities previously seen only in the large satellites.""
+
+Large satellites can weigh up to 1,000 kg, but microsatellites weigh only 100 to 200 kg.
+Recognised internationally with strong market interest
+NTU's new radar chip was presented and published at the prestigious International Solid-State Circuits Conference (ISSCC) 2016. Commonly referred to as the ""Olympics of Integrated Circuits Design"", ISSCC is the world's top forum for presenting advances in solid-state circuits and systems and is attended by major industry players.
+
+The chip was developed by Asst Prof Zheng's team of five at NTU's VIRTUS IC Design Centre of Excellence. The group was the first from Singapore to publish in ISSCC and is also the most published local group, with seven papers to date.
+
+NTU's new technology has attracted the attention of many multinational corporations, such as US aerospace company Space X; Netherlands semiconductor company NXP; Japanese electronics giant Panasonic, and French satellite maker Thales.
+
+The next phase will be research in space applications to be carried out at the Smart Small Satellite Systems - Thales in NTU (S4TIN), a joint laboratory between NTU and Europe's largest satellite manufacturer Thales Alenia Space.
+Game changer for Singapore
+Associate Professor Low Kay Soon, Director of NTU's Satellite Research Centre, said the new radar chip will be a game changer in the space industry, which will bolster Singapore's growing reputation as a satellite building nation.
+
+""Monitoring the environment with a clear image using a traditional optical camera is always very challenging due to clouds and changing light conditions,"" said Assoc Prof Low.
+
+""This is especially the case for the tropics where the sky is always cloudy. With a miniature radar-on-chip system, it cuts down the required weight and size of the payload that a satellite needs to carry.
+
+""More significantly, the lower power consumption makes it very suitable for microsatellites such as the X-SAT or VELOX-CI which NTU has launched. For small satellites, there is a limited area to mount the solar panels, which limits its power generation. Consequently the conventional SAR systems cannot be used due to its high power requirements.""
+
+Asst Prof Zheng says it will take another three to six years before NTU's new radar chip is ready for commercial use. He is now working with NTU's innovation and enterprise company, NTUitive to find industry partners to license the technology or to spin off a company.
+
+Director of VIRTUS, NTU Professor Joseph Chang added: ""Singapore is one the very few select countries in the world with advanced technical capabilities to design complex microchips for space applications.""
+
+""NTU professors associated with VIRTUS have received research funding of over S$5 million from Singapore and various countries like the United States, to design microchips for space applications. Recently, two patents have been filed for the novel design of these microchips.""
+
+VIRTUS filed ten patents in the last year alone, for various innovative microchips with applications ranging from image processing to computing.
+
+According to Markets and Markets global forecasts and analysis, the global market for radar systems is estimated to grow to US$24 billion by 2020. It can also capture objects as small as half a metre which is twice as detailed as the conventional radar camera used in large aircrafts or satellites.
+Potential applications of the new radar chip
+Asst Prof Zheng said that when mounted on UAVs, it can take high quality images on demand to monitor traffic conditions or even the coastlines for trespassers.
+
+""Driverless cars will also be able to better scan the environment around them to avoid collisions and navigate more accurately in all weather conditions compared to current laser and optical technologies,"" he added.
+
+""Finally, with the space industry moving towards small satellite systems, such as the six satellites launched by NTU, smaller satellites can now also have the same advanced imaging capabilities previously seen only in the large satellites.""
+
+Large satellites can weigh up to 1,000 kg, but microsatellites weigh only 100 to 200 kg.
+Recognised internationally with strong market interest
+NTU's new radar chip was presented and published at the prestigious International Solid-State Circuits Conference (ISSCC) 2016. Commonly referred to as the ""Olympics of Integrated Circuits Design"", ISSCC is the world's top forum for presenting advances in solid-state circuits and systems and is attended by major industry players.
+
+The chip was developed by Asst Prof Zheng's team of five at NTU's VIRTUS IC Design Centre of Excellence. The group was the first from Singapore to publish in ISSCC and is also the most published local group, with seven papers to date.
+
+NTU's new technology has attracted the attention of many multinational corporations, such as US aerospace company Space X; Netherlands semiconductor company NXP; Japanese electronics giant Panasonic, and French satellite maker Thales.
+
+The next phase will be research in space applications to be carried out at the Smart Small Satellite Systems - Thales in NTU (S4TIN), a joint laboratory between NTU and Europe's largest satellite manufacturer Thales Alenia Space.
+Game changer for Singapore
+Associate Professor Low Kay Soon, Director of NTU's Satellite Research Centre, said the new radar chip will be a game changer in the space industry, which will bolster Singapore's growing reputation as a satellite building nation.
+
+""Monitoring the environment with a clear image using a traditional optical camera is always very challenging due to clouds and changing light conditions,"" said Assoc Prof Low.
+
+""This is especially the case for the tropics where the sky is always cloudy. With a miniature radar-on-chip system, it cuts down the required weight and size of the payload that a satellite needs to carry.
+
+""More significantly, the lower power consumption makes it very suitable for microsatellites such as the X-SAT or VELOX-CI which NTU has launched. For small satellites, there is a limited area to mount the solar panels, which limits its power generation. Consequently the conventional SAR systems cannot be used due to its high power requirements.""
+
+Asst Prof Zheng says it will take another three to six years before NTU's new radar chip is ready for commercial use. He is now working with NTU's innovation and enterprise company, NTUitive to find industry partners to license the technology or to spin off a company.
+
+Director of VIRTUS, NTU Professor Joseph Chang added: ""Singapore is one the very few select countries in the world with advanced technical capabilities to design complex microchips for space applications.""
+
+""NTU professors associated with VIRTUS have received research funding of over S$5 million from Singapore and various countries like the United States, to design microchips for space applications. Recently, two patents have been filed for the novel design of these microchips.""
+
+VIRTUS filed ten patents in the last year alone, for various innovative microchips with applications ranging from image processing to computing.
+
+According to Markets and Markets global forecasts and analysis, the global market for radar systems is estimated to grow to US$24 billion by 2020. Potential applications of the new radar chip
+Asst Prof Zheng said that when mounted on UAVs, it can take high quality images on demand to monitor traffic conditions or even the coastlines for trespassers.
+
+""Driverless cars will also be able to better scan the environment around them to avoid collisions and navigate more accurately in all weather conditions compared to current laser and optical technologies,"" he added.
+
+""Finally, with the space industry moving towards small satellite systems, such as the six satellites launched by NTU, smaller satellites can now also have the same advanced imaging capabilities previously seen only in the large satellites.""
+
+Large satellites can weigh up to 1,000 kg, but microsatellites weigh only 100 to 200 kg.
+Recognised internationally with strong market interest
+NTU's new radar chip was presented and published at the prestigious International Solid-State Circuits Conference (ISSCC) 2016. Commonly referred to as the ""Olympics of Integrated Circuits Design"", ISSCC is the world's top forum for presenting advances in solid-state circuits and systems and is attended by major industry players.
+
+The chip was developed by Asst Prof Zheng's team of five at NTU's VIRTUS IC Design Centre of Excellence. The group was the first from Singapore to publish in ISSCC and is also the most published local group, with seven papers to date.
+
+NTU's new technology has attracted the attention of many multinational corporations, such as US aerospace company Space X; Netherlands semiconductor company NXP; Japanese electronics giant Panasonic, and French satellite maker Thales.
+
+The next phase will be research in space applications to be carried out at the Smart Small Satellite Systems - Thales in NTU (S4TIN), a joint laboratory between NTU and Europe's largest satellite manufacturer Thales Alenia Space.
+Game changer for Singapore
+Associate Professor Low Kay Soon, Director of NTU's Satellite Research Centre, said the new radar chip will be a game changer in the space industry, which will bolster Singapore's growing reputation as a satellite building nation.
+
+""Monitoring the environment with a clear image using a traditional optical camera is always very challenging due to clouds and changing light conditions,"" said Assoc Prof Low.
+
+""This is especially the case for the tropics where the sky is always cloudy. With a miniature radar-on-chip system, it cuts down the required weight and size of the payload that a satellite needs to carry.
+
+""More significantly, the lower power consumption makes it very suitable for microsatellites such as the X-SAT or VELOX-CI which NTU has launched. For small satellites, there is a limited area to mount the solar panels, which limits its power generation. Consequently the conventional SAR systems cannot be used due to its high power requirements.""
+
+Asst Prof Zheng says it will take another three to six years before NTU's new radar chip is ready for commercial use. He is now working with NTU's innovation and enterprise company, NTUitive to find industry partners to license the technology or to spin off a company.
+
+Director of VIRTUS, NTU Professor Joseph Chang added: ""Singapore is one the very few select countries in the world with advanced technical capabilities to design complex microchips for space applications.""
+
+""NTU professors associated with VIRTUS have received research funding of over S$5 million from Singapore and various countries like the United States, to design microchips for space applications. Recently, two patents have been filed for the novel design of these microchips.""
+
+VIRTUS filed ten patents in the last year alone, for various innovative microchips with applications ranging from image processing to computing.
+
+According to Markets and Markets global forecasts and analysis, the global market for radar systems is estimated to grow to US$24 billion by 2020. ""Driverless cars will also be able to better scan the environment around them to avoid collisions and navigate more accurately in all weather conditions compared to current laser and optical technologies,"" he added.
+
+""Finally, with the space industry moving towards small satellite systems, such as the six satellites launched by NTU, smaller satellites can now also have the same advanced imaging capabilities previously seen only in the large satellites.""
+
+Large satellites can weigh up to 1,000 kg, but microsatellites weigh only 100 to 200 kg.
+Recognised internationally with strong market interest
+NTU's new radar chip was presented and published at the prestigious International Solid-State Circuits Conference (ISSCC) 2016. Commonly referred to as the ""Olympics of Integrated Circuits Design"", ISSCC is the world's top forum for presenting advances in solid-state circuits and systems and is attended by major industry players.
+
+The chip was developed by Asst Prof Zheng's team of five at NTU's VIRTUS IC Design Centre of Excellence. The group was the first from Singapore to publish in ISSCC and is also the most published local group, with seven papers to date.
+
+NTU's new technology has attracted the attention of many multinational corporations, such as US aerospace company Space X; Netherlands semiconductor company NXP; Japanese electronics giant Panasonic, and French satellite maker Thales.
+
+The next phase will be research in space applications to be carried out at the Smart Small Satellite Systems - Thales in NTU (S4TIN), a joint laboratory between NTU and Europe's largest satellite manufacturer Thales Alenia Space.
+Game changer for Singapore
+Associate Professor Low Kay Soon, Director of NTU's Satellite Research Centre, said the new radar chip will be a game changer in the space industry, which will bolster Singapore's growing reputation as a satellite building nation.
+
+""Monitoring the environment with a clear image using a traditional optical camera is always very challenging due to clouds and changing light conditions,"" said Assoc Prof Low.
+
+""This is especially the case for the tropics where the sky is always cloudy. With a miniature radar-on-chip system, it cuts down the required weight and size of the payload that a satellite needs to carry.
+
+""More significantly, the lower power consumption makes it very suitable for microsatellites such as the X-SAT or VELOX-CI which NTU has launched. For small satellites, there is a limited area to mount the solar panels, which limits its power generation. Consequently the conventional SAR systems cannot be used due to its high power requirements.""
+
+Asst Prof Zheng says it will take another three to six years before NTU's new radar chip is ready for commercial use. He is now working with NTU's innovation and enterprise company, NTUitive to find industry partners to license the technology or to spin off a company.
+
+Director of VIRTUS, NTU Professor Joseph Chang added: ""Singapore is one the very few select countries in the world with advanced technical capabilities to design complex microchips for space applications.""
+
+""NTU professors associated with VIRTUS have received research funding of over S$5 million from Singapore and various countries like the United States, to design microchips for space applications. Recently, two patents have been filed for the novel design of these microchips.""
+
+VIRTUS filed ten patents in the last year alone, for various innovative microchips with applications ranging from image processing to computing.
+
+According to Markets and Markets global forecasts and analysis, the global market for radar systems is estimated to grow to US$24 billion by 2020. ""Finally, with the space industry moving towards small satellite systems, such as the six satellites launched by NTU, smaller satellites can now also have the same advanced imaging capabilities previously seen only in the large satellites.""
+
+Large satellites can weigh up to 1,000 kg, but microsatellites weigh only 100 to 200 kg.
+Recognised internationally with strong market interest
+NTU's new radar chip was presented and published at the prestigious International Solid-State Circuits Conference (ISSCC) 2016. Commonly referred to as the ""Olympics of Integrated Circuits Design"", ISSCC is the world's top forum for presenting advances in solid-state circuits and systems and is attended by major industry players.
+
+The chip was developed by Asst Prof Zheng's team of five at NTU's VIRTUS IC Design Centre of Excellence. The group was the first from Singapore to publish in ISSCC and is also the most published local group, with seven papers to date.
+
+NTU's new technology has attracted the attention of many multinational corporations, such as US aerospace company Space X; Netherlands semiconductor company NXP; Japanese electronics giant Panasonic, and French satellite maker Thales.
+
+The next phase will be research in space applications to be carried out at the Smart Small Satellite Systems - Thales in NTU (S4TIN), a joint laboratory between NTU and Europe's largest satellite manufacturer Thales Alenia Space.
+Game changer for Singapore
+Associate Professor Low Kay Soon, Director of NTU's Satellite Research Centre, said the new radar chip will be a game changer in the space industry, which will bolster Singapore's growing reputation as a satellite building nation.
+
+""Monitoring the environment with a clear image using a traditional optical camera is always very challenging due to clouds and changing light conditions,"" said Assoc Prof Low.
+
+""This is especially the case for the tropics where the sky is always cloudy. With a miniature radar-on-chip system, it cuts down the required weight and size of the payload that a satellite needs to carry.
+
+""More significantly, the lower power consumption makes it very suitable for microsatellites such as the X-SAT or VELOX-CI which NTU has launched. For small satellites, there is a limited area to mount the solar panels, which limits its power generation. Consequently the conventional SAR systems cannot be used due to its high power requirements.""
+
+Asst Prof Zheng says it will take another three to six years before NTU's new radar chip is ready for commercial use. He is now working with NTU's innovation and enterprise company, NTUitive to find industry partners to license the technology or to spin off a company.
+
+Director of VIRTUS, NTU Professor Joseph Chang added: ""Singapore is one the very few select countries in the world with advanced technical capabilities to design complex microchips for space applications.""
+
+""NTU professors associated with VIRTUS have received research funding of over S$5 million from Singapore and various countries like the United States, to design microchips for space applications. Recently, two patents have been filed for the novel design of these microchips.""
+
+VIRTUS filed ten patents in the last year alone, for various innovative microchips with applications ranging from image processing to computing.
+
+According to Markets and Markets global forecasts and analysis, the global market for radar systems is estimated to grow to US$24 billion by 2020. Large satellites can weigh up to 1,000 kg, but microsatellites weigh only 100 to 200 kg.
+Recognised internationally with strong market interest
+NTU's new radar chip was presented and published at the prestigious International Solid-State Circuits Conference (ISSCC) 2016. Commonly referred to as the ""Olympics of Integrated Circuits Design"", ISSCC is the world's top forum for presenting advances in solid-state circuits and systems and is attended by major industry players.
+
+The chip was developed by Asst Prof Zheng's team of five at NTU's VIRTUS IC Design Centre of Excellence. The group was the first from Singapore to publish in ISSCC and is also the most published local group, with seven papers to date.
+
+NTU's new technology has attracted the attention of many multinational corporations, such as US aerospace company Space X; Netherlands semiconductor company NXP; Japanese electronics giant Panasonic, and French satellite maker Thales.
+
+The next phase will be research in space applications to be carried out at the Smart Small Satellite Systems - Thales in NTU (S4TIN), a joint laboratory between NTU and Europe's largest satellite manufacturer Thales Alenia Space.
+Game changer for Singapore
+Associate Professor Low Kay Soon, Director of NTU's Satellite Research Centre, said the new radar chip will be a game changer in the space industry, which will bolster Singapore's growing reputation as a satellite building nation.
+
+""Monitoring the environment with a clear image using a traditional optical camera is always very challenging due to clouds and changing light conditions,"" said Assoc Prof Low.
+
+""This is especially the case for the tropics where the sky is always cloudy. With a miniature radar-on-chip system, it cuts down the required weight and size of the payload that a satellite needs to carry.
+
+""More significantly, the lower power consumption makes it very suitable for microsatellites such as the X-SAT or VELOX-CI which NTU has launched. For small satellites, there is a limited area to mount the solar panels, which limits its power generation. Consequently the conventional SAR systems cannot be used due to its high power requirements.""
+
+Asst Prof Zheng says it will take another three to six years before NTU's new radar chip is ready for commercial use. He is now working with NTU's innovation and enterprise company, NTUitive to find industry partners to license the technology or to spin off a company.
+
+Director of VIRTUS, NTU Professor Joseph Chang added: ""Singapore is one the very few select countries in the world with advanced technical capabilities to design complex microchips for space applications.""
+
+""NTU professors associated with VIRTUS have received research funding of over S$5 million from Singapore and various countries like the United States, to design microchips for space applications. Recently, two patents have been filed for the novel design of these microchips.""
+
+VIRTUS filed ten patents in the last year alone, for various innovative microchips with applications ranging from image processing to computing.
+
+According to Markets and Markets global forecasts and analysis, the global market for radar systems is estimated to grow to US$24 billion by 2020. Recognised internationally with strong market interest
+NTU's new radar chip was presented and published at the prestigious International Solid-State Circuits Conference (ISSCC) 2016. Commonly referred to as the ""Olympics of Integrated Circuits Design"", ISSCC is the world's top forum for presenting advances in solid-state circuits and systems and is attended by major industry players.
+
+The chip was developed by Asst Prof Zheng's team of five at NTU's VIRTUS IC Design Centre of Excellence. The group was the first from Singapore to publish in ISSCC and is also the most published local group, with seven papers to date.
+
+NTU's new technology has attracted the attention of many multinational corporations, such as US aerospace company Space X; Netherlands semiconductor company NXP; Japanese electronics giant Panasonic, and French satellite maker Thales.
+
+The next phase will be research in space applications to be carried out at the Smart Small Satellite Systems - Thales in NTU (S4TIN), a joint laboratory between NTU and Europe's largest satellite manufacturer Thales Alenia Space.
+Game changer for Singapore
+Associate Professor Low Kay Soon, Director of NTU's Satellite Research Centre, said the new radar chip will be a game changer in the space industry, which will bolster Singapore's growing reputation as a satellite building nation.
+
+""Monitoring the environment with a clear image using a traditional optical camera is always very challenging due to clouds and changing light conditions,"" said Assoc Prof Low.
+
+""This is especially the case for the tropics where the sky is always cloudy. With a miniature radar-on-chip system, it cuts down the required weight and size of the payload that a satellite needs to carry.
+
+""More significantly, the lower power consumption makes it very suitable for microsatellites such as the X-SAT or VELOX-CI which NTU has launched. For small satellites, there is a limited area to mount the solar panels, which limits its power generation. Consequently the conventional SAR systems cannot be used due to its high power requirements.""
+
+Asst Prof Zheng says it will take another three to six years before NTU's new radar chip is ready for commercial use. He is now working with NTU's innovation and enterprise company, NTUitive to find industry partners to license the technology or to spin off a company.
+
+Director of VIRTUS, NTU Professor Joseph Chang added: ""Singapore is one the very few select countries in the world with advanced technical capabilities to design complex microchips for space applications.""
+
+""NTU professors associated with VIRTUS have received research funding of over S$5 million from Singapore and various countries like the United States, to design microchips for space applications. Recently, two patents have been filed for the novel design of these microchips.""
+
+VIRTUS filed ten patents in the last year alone, for various innovative microchips with applications ranging from image processing to computing.
+
+According to Markets and Markets global forecasts and analysis, the global market for radar systems is estimated to grow to US$24 billion by 2020. The chip was developed by Asst Prof Zheng's team of five at NTU's VIRTUS IC Design Centre of Excellence. The group was the first from Singapore to publish in ISSCC and is also the most published local group, with seven papers to date.
+
+NTU's new technology has attracted the attention of many multinational corporations, such as US aerospace company Space X; Netherlands semiconductor company NXP; Japanese electronics giant Panasonic, and French satellite maker Thales.
+
+The next phase will be research in space applications to be carried out at the Smart Small Satellite Systems - Thales in NTU (S4TIN), a joint laboratory between NTU and Europe's largest satellite manufacturer Thales Alenia Space.
+Game changer for Singapore
+Associate Professor Low Kay Soon, Director of NTU's Satellite Research Centre, said the new radar chip will be a game changer in the space industry, which will bolster Singapore's growing reputation as a satellite building nation.
+
+""Monitoring the environment with a clear image using a traditional optical camera is always very challenging due to clouds and changing light conditions,"" said Assoc Prof Low.
+
+""This is especially the case for the tropics where the sky is always cloudy. With a miniature radar-on-chip system, it cuts down the required weight and size of the payload that a satellite needs to carry.
+
+""More significantly, the lower power consumption makes it very suitable for microsatellites such as the X-SAT or VELOX-CI which NTU has launched. For small satellites, there is a limited area to mount the solar panels, which limits its power generation. Consequently the conventional SAR systems cannot be used due to its high power requirements.""
+
+Asst Prof Zheng says it will take another three to six years before NTU's new radar chip is ready for commercial use. He is now working with NTU's innovation and enterprise company, NTUitive to find industry partners to license the technology or to spin off a company.
+
+Director of VIRTUS, NTU Professor Joseph Chang added: ""Singapore is one the very few select countries in the world with advanced technical capabilities to design complex microchips for space applications.""
+
+""NTU professors associated with VIRTUS have received research funding of over S$5 million from Singapore and various countries like the United States, to design microchips for space applications. Recently, two patents have been filed for the novel design of these microchips.""
+
+VIRTUS filed ten patents in the last year alone, for various innovative microchips with applications ranging from image processing to computing.
+
+According to Markets and Markets global forecasts and analysis, the global market for radar systems is estimated to grow to US$24 billion by 2020. NTU's new technology has attracted the attention of many multinational corporations, such as US aerospace company Space X; Netherlands semiconductor company NXP; Japanese electronics giant Panasonic, and French satellite maker Thales.
+
+The next phase will be research in space applications to be carried out at the Smart Small Satellite Systems - Thales in NTU (S4TIN), a joint laboratory between NTU and Europe's largest satellite manufacturer Thales Alenia Space.
+Game changer for Singapore
+Associate Professor Low Kay Soon, Director of NTU's Satellite Research Centre, said the new radar chip will be a game changer in the space industry, which will bolster Singapore's growing reputation as a satellite building nation.
+
+""Monitoring the environment with a clear image using a traditional optical camera is always very challenging due to clouds and changing light conditions,"" said Assoc Prof Low.
+
+""This is especially the case for the tropics where the sky is always cloudy. With a miniature radar-on-chip system, it cuts down the required weight and size of the payload that a satellite needs to carry.
+
+""More significantly, the lower power consumption makes it very suitable for microsatellites such as the X-SAT or VELOX-CI which NTU has launched. For small satellites, there is a limited area to mount the solar panels, which limits its power generation. Consequently the conventional SAR systems cannot be used due to its high power requirements.""
+
+Asst Prof Zheng says it will take another three to six years before NTU's new radar chip is ready for commercial use. He is now working with NTU's innovation and enterprise company, NTUitive to find industry partners to license the technology or to spin off a company.
+
+Director of VIRTUS, NTU Professor Joseph Chang added: ""Singapore is one the very few select countries in the world with advanced technical capabilities to design complex microchips for space applications.""
+
+""NTU professors associated with VIRTUS have received research funding of over S$5 million from Singapore and various countries like the United States, to design microchips for space applications. Recently, two patents have been filed for the novel design of these microchips.""
+
+VIRTUS filed ten patents in the last year alone, for various innovative microchips with applications ranging from image processing to computing.
+
+According to Markets and Markets global forecasts and analysis, the global market for radar systems is estimated to grow to US$24 billion by 2020. The next phase will be research in space applications to be carried out at the Smart Small Satellite Systems - Thales in NTU (S4TIN), a joint laboratory between NTU and Europe's largest satellite manufacturer Thales Alenia Space.
+Game changer for Singapore
+Associate Professor Low Kay Soon, Director of NTU's Satellite Research Centre, said the new radar chip will be a game changer in the space industry, which will bolster Singapore's growing reputation as a satellite building nation.
+
+""Monitoring the environment with a clear image using a traditional optical camera is always very challenging due to clouds and changing light conditions,"" said Assoc Prof Low.
+
+""This is especially the case for the tropics where the sky is always cloudy. With a miniature radar-on-chip system, it cuts down the required weight and size of the payload that a satellite needs to carry.
+
+""More significantly, the lower power consumption makes it very suitable for microsatellites such as the X-SAT or VELOX-CI which NTU has launched. For small satellites, there is a limited area to mount the solar panels, which limits its power generation. Consequently the conventional SAR systems cannot be used due to its high power requirements.""
+
+Asst Prof Zheng says it will take another three to six years before NTU's new radar chip is ready for commercial use. He is now working with NTU's innovation and enterprise company, NTUitive to find industry partners to license the technology or to spin off a company.
+
+Director of VIRTUS, NTU Professor Joseph Chang added: ""Singapore is one the very few select countries in the world with advanced technical capabilities to design complex microchips for space applications.""
+
+""NTU professors associated with VIRTUS have received research funding of over S$5 million from Singapore and various countries like the United States, to design microchips for space applications. Recently, two patents have been filed for the novel design of these microchips.""
+
+VIRTUS filed ten patents in the last year alone, for various innovative microchips with applications ranging from image processing to computing.
+
+According to Markets and Markets global forecasts and analysis, the global market for radar systems is estimated to grow to US$24 billion by 2020. Game changer for Singapore
+Associate Professor Low Kay Soon, Director of NTU's Satellite Research Centre, said the new radar chip will be a game changer in the space industry, which will bolster Singapore's growing reputation as a satellite building nation.
+
+""Monitoring the environment with a clear image using a traditional optical camera is always very challenging due to clouds and changing light conditions,"" said Assoc Prof Low.
+
+""This is especially the case for the tropics where the sky is always cloudy. With a miniature radar-on-chip system, it cuts down the required weight and size of the payload that a satellite needs to carry.
+
+""More significantly, the lower power consumption makes it very suitable for microsatellites such as the X-SAT or VELOX-CI which NTU has launched. For small satellites, there is a limited area to mount the solar panels, which limits its power generation. Consequently the conventional SAR systems cannot be used due to its high power requirements.""
+
+Asst Prof Zheng says it will take another three to six years before NTU's new radar chip is ready for commercial use. He is now working with NTU's innovation and enterprise company, NTUitive to find industry partners to license the technology or to spin off a company.
+
+Director of VIRTUS, NTU Professor Joseph Chang added: ""Singapore is one the very few select countries in the world with advanced technical capabilities to design complex microchips for space applications.""
+
+""NTU professors associated with VIRTUS have received research funding of over S$5 million from Singapore and various countries like the United States, to design microchips for space applications. Recently, two patents have been filed for the novel design of these microchips.""
+
+VIRTUS filed ten patents in the last year alone, for various innovative microchips with applications ranging from image processing to computing.
+
+According to Markets and Markets global forecasts and analysis, the global market for radar systems is estimated to grow to US$24 billion by 2020. ""Monitoring the environment with a clear image using a traditional optical camera is always very challenging due to clouds and changing light conditions,"" said Assoc Prof Low.
+
+""This is especially the case for the tropics where the sky is always cloudy. With a miniature radar-on-chip system, it cuts down the required weight and size of the payload that a satellite needs to carry.
+
+""More significantly, the lower power consumption makes it very suitable for microsatellites such as the X-SAT or VELOX-CI which NTU has launched. For small satellites, there is a limited area to mount the solar panels, which limits its power generation. Consequently the conventional SAR systems cannot be used due to its high power requirements.""
+
+Asst Prof Zheng says it will take another three to six years before NTU's new radar chip is ready for commercial use. He is now working with NTU's innovation and enterprise company, NTUitive to find industry partners to license the technology or to spin off a company.
+
+Director of VIRTUS, NTU Professor Joseph Chang added: ""Singapore is one the very few select countries in the world with advanced technical capabilities to design complex microchips for space applications.""
+
+""NTU professors associated with VIRTUS have received research funding of over S$5 million from Singapore and various countries like the United States, to design microchips for space applications. Recently, two patents have been filed for the novel design of these microchips.""
+
+VIRTUS filed ten patents in the last year alone, for various innovative microchips with applications ranging from image processing to computing.
+
+According to Markets and Markets global forecasts and analysis, the global market for radar systems is estimated to grow to US$24 billion by 2020. ""This is especially the case for the tropics where the sky is always cloudy. With a miniature radar-on-chip system, it cuts down the required weight and size of the payload that a satellite needs to carry.
+
+""More significantly, the lower power consumption makes it very suitable for microsatellites such as the X-SAT or VELOX-CI which NTU has launched. For small satellites, there is a limited area to mount the solar panels, which limits its power generation. Consequently the conventional SAR systems cannot be used due to its high power requirements.""
+
+Asst Prof Zheng says it will take another three to six years before NTU's new radar chip is ready for commercial use. He is now working with NTU's innovation and enterprise company, NTUitive to find industry partners to license the technology or to spin off a company.
+
+Director of VIRTUS, NTU Professor Joseph Chang added: ""Singapore is one the very few select countries in the world with advanced technical capabilities to design complex microchips for space applications.""
+
+""NTU professors associated with VIRTUS have received research funding of over S$5 million from Singapore and various countries like the United States, to design microchips for space applications. Recently, two patents have been filed for the novel design of these microchips.""
+
+VIRTUS filed ten patents in the last year alone, for various innovative microchips with applications ranging from image processing to computing.
+
+According to Markets and Markets global forecasts and analysis, the global market for radar systems is estimated to grow to US$24 billion by 2020. ""More significantly, the lower power consumption makes it very suitable for microsatellites such as the X-SAT or VELOX-CI which NTU has launched. For small satellites, there is a limited area to mount the solar panels, which limits its power generation. Consequently the conventional SAR systems cannot be used due to its high power requirements.""
+
+Asst Prof Zheng says it will take another three to six years before NTU's new radar chip is ready for commercial use. He is now working with NTU's innovation and enterprise company, NTUitive to find industry partners to license the technology or to spin off a company.
+
+Director of VIRTUS, NTU Professor Joseph Chang added: ""Singapore is one the very few select countries in the world with advanced technical capabilities to design complex microchips for space applications.""
+
+""NTU professors associated with VIRTUS have received research funding of over S$5 million from Singapore and various countries like the United States, to design microchips for space applications. Recently, two patents have been filed for the novel design of these microchips.""
+
+VIRTUS filed ten patents in the last year alone, for various innovative microchips with applications ranging from image processing to computing.
+
+According to Markets and Markets global forecasts and analysis, the global market for radar systems is estimated to grow to US$24 billion by 2020. Asst Prof Zheng says it will take another three to six years before NTU's new radar chip is ready for commercial use. He is now working with NTU's innovation and enterprise company, NTUitive to find industry partners to license the technology or to spin off a company.
+
+Director of VIRTUS, NTU Professor Joseph Chang added: ""Singapore is one the very few select countries in the world with advanced technical capabilities to design complex microchips for space applications.""
+
+""NTU professors associated with VIRTUS have received research funding of over S$5 million from Singapore and various countries like the United States, to design microchips for space applications. Recently, two patents have been filed for the novel design of these microchips.""
+
+VIRTUS filed ten patents in the last year alone, for various innovative microchips with applications ranging from image processing to computing.
+
+According to Markets and Markets global forecasts and analysis, the global market for radar systems is estimated to grow to US$24 billion by 2020. Director of VIRTUS, NTU Professor Joseph Chang added: ""Singapore is one the very few select countries in the world with advanced technical capabilities to design complex microchips for space applications.""
+
+""NTU professors associated with VIRTUS have received research funding of over S$5 million from Singapore and various countries like the United States, to design microchips for space applications. Recently, two patents have been filed for the novel design of these microchips.""
+
+VIRTUS filed ten patents in the last year alone, for various innovative microchips with applications ranging from image processing to computing.
+
+According to Markets and Markets global forecasts and analysis, the global market for radar systems is estimated to grow to US$24 billion by 2020. ""NTU professors associated with VIRTUS have received research funding of over S$5 million from Singapore and various countries like the United States, to design microchips for space applications. Recently, two patents have been filed for the novel design of these microchips.""
+
+VIRTUS filed ten patents in the last year alone, for various innovative microchips with applications ranging from image processing to computing.
+
+According to Markets and Markets global forecasts and analysis, the global market for radar systems is estimated to grow to US$24 billion by 2020. VIRTUS filed ten patents in the last year alone, for various innovative microchips with applications ranging from image processing to computing.
+
+According to Markets and Markets global forecasts and analysis, the global market for radar systems is estimated to grow to US$24 billion by 2020. According to Markets and Markets global forecasts and analysis, the global market for radar systems is estimated to grow to US$24 billion by 2020. "
