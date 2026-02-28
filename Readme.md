@@ -291,11 +291,10 @@ See SVM.py for modeling
 I hope to have these next steps done in the coming weeks please come
 back and check!
 
--Implement stratified sampling to ensure balanced daily coverage instead
-of high-density short windows. -Restrict scraping scope to one year
-sliding window max to enhance feasibility. -Pre-filter by geographic
-(using IP address geolocation) and financial relevance before full
-article extraction. -Deploy sentiment as a parallel model, feeding into
-a stacked meta-learning framework. -Structure the sentiment in a lagged
-fashion. -Focus on well known sources opposed to small-market news
-outlets. -Scale up and include automated pipelines.
+    -Implement stratified sampling to ensure balanced daily coverage instead of high-density short windows.
+    -Restrict scraping scope to one year sliding window max to enhance feasibility.
+    -Pre-filter by geographic (using IP address geolocation) and financial relevance before full article extraction.
+    -Deploy sentiment as a parallel model, feeding into a stacked meta-learning framework.
+    -Structure the sentiment in a lagged fashion.
+    -Focus on well known sources opposed to small-market news outlets.
+    -Scale up and include automated pipelines.
