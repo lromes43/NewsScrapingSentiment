@@ -7,7 +7,7 @@ from joblib import Parallel, delayed
 import shutil
 import polars as pl
 
-
+#only pulled 330,785 articles initially due to time constraints but am building on this in the future!
 
 def process_single_article(row_data):
     
@@ -21,7 +21,7 @@ def process_single_article(row_data):
     first_link = row_data['SOURCEULRS']
     
     try: 
-        request = requests.get(first_link, timeout=10) 
+        request = requests.get(first_link, timeout=.1) 
         if request.status_code != 200: 
             return f"Failed: {request.status_code}" 
             
@@ -33,7 +33,7 @@ def process_single_article(row_data):
         clean_id = re.sub(r'\.[^.]+$', '', new)
         clean_id = re.sub(r'[./]', '_', clean_id) 
 
-        save_path = f'/Users/lukeromes/Desktop/NewsScrapingSentiment/textfiles/{clean_id}text.csv'
+        save_path = f'/Users/lukeromes/Desktop/NewsScrapingSentiment/textfiles2/{clean_id}text.csv'
         pd.DataFrame([{'Date': first_row_date, 'Text': combined_text}]).to_csv(
             save_path, index=False, encoding='utf-8'
         )
@@ -42,24 +42,22 @@ def process_single_article(row_data):
     except Exception as e:
         return f"Error: {str(e)}"
     
-
-
+#just learned what name == "_main_" means so cool
+# also trying to use polars more as it is more efficient thats why some of the code in the repo includes polars some pandas
 if __name__ == "__main__":
-    target_dir = '/Users/lukeromes/Desktop/NewsScrapingSentiment/textfiles/'
+    target_dir = '/Users/lukeromes/Desktop/NewsScrapingSentiment/textfiles2/'
     os.makedirs(target_dir, exist_ok=True)
     
     lazy_df = pl.scan_parquet('/Users/lukeromes/Desktop/NewsScrapingSentiment/final_combined_data.parquet')
     
-
     batch_size = 5000 
     
-
     total_rows = lazy_df.select(pl.len()).collect().item()
     
     for offset in range(0, total_rows, batch_size):
 
         batch = lazy_df.slice(offset, batch_size).collect()
-        rows = batch.to_dicts() # Much safer on a small slice
+        rows = batch.to_dicts() 
         
         print(f"Processing batch: {offset} to {offset + batch_size}")
         

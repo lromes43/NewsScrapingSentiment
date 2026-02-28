@@ -16,6 +16,7 @@ import glob
 import os
 import pyarrow.feather as feather
 import gc
+from joblib import Parallel, delayed
 
 
 today = datetime.date.today()
@@ -69,9 +70,6 @@ files_to_get.describe()
 
 #playwright
 
-#DO THRESHOLD 3 TMR!  20221110 LAST CSV
-
-
 
 pw = sync_playwright().start()
 
@@ -96,10 +94,7 @@ os.makedirs("feather", exist_ok=True)
 
 
 
-
-def producter(): 
-    for i in range(6): 
-        print('')
+#save init feather files deleted once finished to save space on disk bc have the smaller versions rn
 
 for link in files_to_get['text']: 
     print(f"Downloading: {link}")
@@ -187,19 +182,25 @@ first_file
 
 
 
-#iterating through each file in the folder 
+#iterating through each file in the folder
+#also trying to incorporate more psuedo code in my code so i know what i do when i go back 
 #psuedo: 
     #read in each one, follow what we did above with the for loop
     #output new feather or parquet file with subset
     #clear ram/memory
     #go to next
 
+
+import joblib
 from joblib import parallel_config, Parallel, delayed
+joblib.cpu_count()
+#14 threads avalible 
 
 os.chdir('/Users/lukeromes/Desktop/NewsScrapingSentiment/feather')
 print("New working directory:", os.getcwd())
 
 path = "/Users/lukeromes/Desktop/NewsScrapingSentiment/feather"
+
 
 
 def producer():
@@ -221,31 +222,77 @@ def producer():
             df.to_parquet(f"/Users/lukeromes/Desktop/NewsScrapingSentiment/cleaneddata/{pathname}.parquet")
 
 
-out = Parallel(n_jobs=8, verbose=100, pre_dispatch='1.5*n_jobs')(
+out = Parallel(n_jobs=12, verbose=100, pre_dispatch='1.5*n_jobs')(
     delayed()(i) for i in producer())
 
+#check to see how it worked
+#decreased original size of 140.75 GB (3633 files) to 57.73 (3631 files)
 
+
+#psuedocode
+
+#so basically just need to iterate through every row and click the source url, do a get request, extract the html and from there can take out the paragraohs and title and save the text for each to a .txt file
+
+
+#start with just pulling first row of first file
+
+check_data = pd.read_parquet("/Users/lukeromes/Desktop/NewsScrapingSentiment/cleaneddata/20160226.gkg.csv.parquet")
+check_data
+
+
+first_row_date = check_data.iloc[0]['DATE']
+first_link= check_data.iloc[0]['SOURCEULRS']
+request = requests.get(first_link)
+soup = BeautifulSoup(request.text, 'html.parser')
+
+
+p_tags = soup.find_all('p')
+p_tags
+
+all_text = [p.text.strip() for p in soup.find_all('p')]
+combined_text = " ".join([text.strip() for text in all_text])
+df = pd.DataFrame([{'Date':'N/A', 
+                   'Text':'N/A'}])
+df['Date'] = first_row_date
+df['Text'] = combined_text
+
+first_link
+new = re.sub('http://', '', first_link)
+new
+
+clean_id = re.sub(r'\.[^.]+$', '', new)
+clean_id = re.sub('/', '_', clean_id)
+clean_id = re.sub('\.', '_', clean_id)
+
+df.to_csv(f'/Users/lukeromes/Desktop/NewsScrapingSentiment/textfiles/{clean_id}text.csv', index=False, encoding='utf-8')
+
+
+
+
+#now going to try with just the first file and iterate through the whole thing
+#need to make sure to do joblib for parallel processing
 
 
 
 #concatenating each together
-d = "/Users/lukeromes/Desktop/NewsScrapingSentiment/feather"
 
-files = []
 
-for p in glob.glob(os.path.join(d, '*.parquet')):
-    df = feather.read_feather(p)
+def appending(p):
+    d = "/Users/lukeromes/Desktop/NewsScrapingSentiment/cleaneddata"
+    files = []
+    df = pd.read_parquet(p)
 
     files.append({
-        'Date': df['DATE'],
-        'URL': df['SOURCEULRS'],
-        'Locations': df['LOCATIONS']
-    })
+            'Date': df['DATE'],
+            'URL': df['SOURCEULRS'],
+            'Locations': df['LOCATIONS']
+        })
 
-    print(f"Loaded {p}")
+    return df
+    
+results = Parallel(n_jobs=12)(delayed(appending)(p) for p in glob.glob(os.path.join('"/Users/lukeromes/Desktop/NewsScrapingSentiment/cleaneddata"', '*.parquet')))
+print(results)
 
-
-#ngl i had to use AI to fix this, better version below bc I kept getting memoory crashing problems.
 
 
 
@@ -279,13 +326,6 @@ df = table.to_pandas()
 
 
 
-
-
-#once that done can try the second part of this: geospatial (https://www.nesdis.noaa.gov/imagery/interactive-maps/earth-real-time), pull every single picture of earth try to self-supervise location
-#so can do at a mass scale. Can use this data to see how different temperatures affect commodities like oil, crops, etc. Tie these commodities with stocks overall see if pair trading applies
-
-
-#look into data validity of the initial data source gdelt and pull like 500 articles stratified sampling of different areas then see if they are actually present in the data, 
 
 
 
