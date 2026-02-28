@@ -97,7 +97,6 @@ os.makedirs("feather", exist_ok=True)
 #save init feather files deleted once finished to save space on disk bc have the smaller versions rn
 
 for link in files_to_get['text']: 
-    print(f"Downloading: {link}")
 
     with page.expect_download() as download_info:
         page.get_by_text(link, exact=False).first.click()
