@@ -4,6 +4,7 @@ from sklearn.svm import LinearSVC
 import pandas as pd 
 import polars as pl
 from sklearn.metrics import accuracy_score
+from sklearn.metrics import roc_auc_score
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from plotnine import *
@@ -51,10 +52,11 @@ X_test_scaled = scaler.transform(X_test)
 clf = LinearSVC(max_iter=10000)
 clf.fit(X_train_scaled, y_train)
 
-y_pred = clf.predict(X_test_scaled)
-
-no_sent_acc = accuracy_score(y_test, y_pred)
-no_sent_acc  #0.7410552728447152
+y_pred = clf.decision_function(X_test_scaled)
+y_pred_acc = clf.predict(X_test_scaled)
+no_sent_acc = accuracy_score(y_test, y_pred_acc)
+no_sent_auc= roc_auc_score(y_test, y_pred)
+no_sent_auc  #0.837
 
 
 
@@ -73,10 +75,12 @@ X_test_scaled = scaler.transform(X_test)
 clf = LinearSVC(max_iter=10000)
 clf.fit(X_train_scaled, y_train)
 
-y_pred = clf.predict(X_test_scaled)
+y_pred = clf.decision_function(X_test_scaled)
+y_pred_acc = clf.predict(X_test_scaled)
 
-vader_acc = accuracy_score(y_test, y_pred)
-vader_acc#0.7666049825522704
+vader_acc = accuracy_score(y_test, y_pred_acc)
+vader_auc= roc_auc_score(y_test, y_pred)
+vader_auc #0.7887309520617722
 
 
 #fin sentiment
@@ -94,9 +98,13 @@ X_test_scaled = scaler.transform(X_test)
 
 clf = LinearSVC(max_iter=10000)
 clf.fit(X_train_scaled, y_train)
-y_pred = clf.predict(X_test_scaled)
-fin_acc = accuracy_score(y_test, y_pred)
-fin_acc #0.7664912550582754
+
+y_pred = clf.decision_function(X_test_scaled)
+y_pred_acc = clf.predict(X_test_scaled)
+
+fin_acc = accuracy_score(y_test, y_pred_acc)
+fin_auc = roc_auc_score(y_test, y_pred)
+fin_auc #0.7888416858673032
 
 
 
@@ -117,10 +125,12 @@ X_test_scaled = scaler.transform(X_test)
 clf = LinearSVC(max_iter=10000)
 clf.fit(X_train_scaled, y_train)
 
-y_pred = clf.predict(X_test_scaled)
+y_pred = clf.decision_function(X_test_scaled)
+y_pred_acc = clf.predict(X_test_scaled)
 
-News_acc = accuracy_score(y_test, y_pred)
-News_acc #0.7664912550582754
+news_acc = accuracy_score(y_test, y_pred_acc)
+News_auc = roc_auc_score(y_test, y_pred)
+News_auc #0.788842510955221
 
 
 
@@ -131,16 +141,30 @@ News_acc #0.7664912550582754
 
 
 models = ['No_Sentiment', 'Vader', 'Financial Sentiment', 'News Sentiment']
-accuracies = [no_sent_acc, vader_acc, fin_acc, News_acc]
+accuracies = [no_sent_acc, vader_acc, fin_acc, news_acc]
+aucs= [no_sent_auc, vader_auc, fin_auc, News_auc]
 
-df = pd.DataFrame(models, accuracies).reset_index()
-df = df.rename(columns={'index': 'accuracy', 0:'model'})
-df
+
+
+df = pd.DataFrame({
+    'Model': models,
+    'Accuracy': accuracies,
+    'AUC': aucs
+})
+
+print(df)
+
 
 #now going to just plot 
 
-plot = ggplot(df, aes(x= 'model', y = 'accuracy', fill = 'model')) + geom_col() + labs(title = 'Model Accuracy By Sentiment')
+#acc
+
+plot = ggplot(df, aes(x= 'models', y = 'Accuracy', fill = 'models')) + geom_col() + labs(title = 'Model Accuracy By Sentiment')
 plot.show()
 
 
-df
+#auc 
+
+
+plot = ggplot(df, aes(x= 'models', y = 'AUC', fill = 'models')) + geom_col() + labs(title = 'Model AUC By Sentiment')
+plot.show()
