@@ -5,12 +5,306 @@ format: gfm
 
 ## Purpose
 
-WORK IN PROGRESS, need to finish
+The purpose of this project was to harness unstructured data in the form of news articles to help gain a better understanding of the economy, and world as a whole. Every news article's URL from February of 2016 through Februrary of 2026 was extracted and placed into a GET request to extract all of the important text for the article. This text was then "tokenized", meaning each phrase was assigned a value from 0 to N. These tokenized values sentiment was then extracted using multiple methods such as: 
+
+    - VadorSentiment: https://vadersentiment.readthedocs.io/en/latest/ 
+    - Flair En-Sentiment: https://flairnlp.github.io/flair/v0.15.1/tutorial/index.html 
+    - Hugging Face Financial News Sentiment: https://huggingface.co/mrm8488/distilroberta-finetuned-financial-news-sentiment-analysis
+    - Hugging Face News Headlines Sentiment: https://huggingface.co/finiteautomata/beto-headlines-sentiment-analysis 
+
+Each of these values was then compared and used as an input variable on a simple Support Vector Machine (SVM) with a Linear Kernel to predict if a companies stock price will increase or decrease the next day (1/0). 
+
+## Results
+
+The Scraper was able to extract the 2+ Billion Article URLS from 02/16 - 02/26 and process over 350,000 of them within the time frame. 
+
+In comparing model preformance using Area Under the Curve (AUC), the model that preformed the best was actually the Naive Model which consisted of just lagged stock closing prices. This is likely due to the scope of articles pulled was very narrow as we were only able to pull .0175% given the time-constraints (this will be address tho see next steps section!). It is interesting to note that if accuracy is used as a metric, the naive model consisting of no sentiment input is by far the worst. Again this will be addressed as more data is scraped.
 
 ## How To Use
 
+To use this news scraper, there are two options: 
+
+    -Pull Raw Links
+    -Extract HTML from Raw Links
+
+### Scraping
+
+#### Pulling Raw Links
+
+In order to pull every raw link, navigate to the gdelt.py file and import the necessary packages: 
+
+```{python}
+#| eval: false
+import time
+import datetime
+import requests
+from bs4 import BeautifulSoup
+import numpy as np
+import pandas as pd
+```
+
+As well as filter down on the selected time frames you desire: 
+
+```{python}
+#| eval: false
+today = datetime.date.today()
+ten_years_ago = today - datetime.timedelta(days=10 * 365)
+```
+
+And finally use this chunk of code to extract everything!
+
+```{python}
+#| eval: false
+url = 'http://data.gdeltproject.org/gkg/index.html'
+raw_text = requests.get(url).text
+souped = BeautifulSoup(raw_text, "html.parser")
+souped
+files = souped.find_all('li.ahref')
+
+files = souped.select('li a')
+data = []
+for link in files:
+    data.append({
+        'text': link.get_text(strip=True),
+        'url': link.get('href')
+    })
+
+files_df = pd.DataFrame(data).reset_index()
+files_df['BinaryFilter'] = np.nan
+files_df['date'] = np.nan
+files_df = files_df[2:]
+files_df['date'] = files_df['text'].str.extract(r'(\d{1,})')
+```
+
+This will return a data frame consisting of each articles URL and its corresponding Date.
+
+
+#### Extracting HTML from Links
+
+First import necessary packages.
+
+Note I used parallel processing here to speed up the process. cpu_count will give the number of avalible cpu's on your device.
+
+```{python}
+#| eval: false
+import joblib
+from joblib import parallel_config, Parallel, delayed
+import glob
+joblib.cpu_count()
+
+```
+
+Define Directories and Paths.
+
+```{python}
+#| eval: false
+os.chdir('/Users/lukeromes/Desktop/NewsScrapingSentiment/feather')
+path = "/Users/lukeromes/Desktop/NewsScrapingSentiment/feather"
+```
+
+
+Execute this chunk to extract every Article's Inner Text
+```{python}
+#| eval: false
+def producer():
+    for p in glob.glob(os.path.join(path, '*.parquet')):
+        pathname1 = os.path.basename(p)
+        pathname = re.sub('\.parquet','', pathname1)
+        df = pd.read_feather(pathname1)
+        df = df.iloc[1:]
+        for i in range(1, len(p)):
+            main_string = df['LOCATIONS'].iloc[i]
+            substring_list = us
+
+            if any(sub in main_string for sub in substring_list):
+                print(f"Match  good at column {i}")
+            else:
+                print(f"No match so removed column {i}.")
+                df = df.drop(index=i)
+            
+            df.to_parquet(f"/Users/lukeromes/Desktop/NewsScrapingSentiment/cleaneddata/{pathname}.parquet")
+
+
+out = Parallel(n_jobs=12, verbose=100, pre_dispatch='1.5*n_jobs')(
+    delayed()(i) for i in producer())
+```
+
+
+And finally concatenate each file on top of one another
+
+```{python}
+#| eval: false
+def appending(p):
+    d = "/Users/lukeromes/Desktop/NewsScrapingSentiment/cleaneddata"
+    files = []
+    df = pd.read_parquet(p)
+
+    files.append({
+            'Date': df['DATE'],
+            'URL': df['SOURCEULRS'],
+            'Locations': df['LOCATIONS']
+        })
+
+    return df
+```
 
 
 
+See gdelt.py for additional filtering done such as is there a US state present in the text
 
 
+### Sentiment Analysis
+
+
+Load in libraries
+
+```{python}
+#| eval: false
+import pandas as pd 
+import polars as pl
+import glob 
+import os 
+import tqdm
+import numpy as np
+import textwrap
+import re
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+from textblob.classifiers import NaiveBayesClassifier
+from textblob import TextBlob
+from textblob.sentiments import NaiveBayesAnalyzer
+from flair.nn import Classifier
+from flair.data import Sentence
+from transformers import pipeline
+from flair.data import Sentence
+from flair.models import TextClassifier
+```
+
+
+Iterate through every file in the directory using polars to speed up the process and bring them all together.
+
+```{python}
+#| eval: false
+df = pl.scan_csv(os.path.join(path, "*.csv")).collect()
+df.write_parquet("text.parquet")
+```
+
+See Sentiment.py for data cleaning that was done
+
+
+#### Vader Sentiment Analysis
+
+
+```{python}
+#| eval: false
+daily_averages = df.groupby('Date')['vader_polarity'].mean().reset_index()
+daily_averages = daily_averages.rename(columns={'vader_polarity':'mean_polarity'})
+daily_averages
+df = df.drop('Daily_Polarity_Score', axis=1)
+df
+
+merged_df = pd.merge(daily_averages, df, how = 'inner', on = 'Date')
+merged_df['vader_polarity_classification'] = np.nan
+
+for i in range(len(merged_df)): 
+    if merged_df['vader_polarity'].iloc[i] < 0.5: 
+        merged_df['vader_polarity_classification'].iloc[i] = 'Very_Negative'
+    elif (merged_df['vader_polarity'].iloc[i] < 0 and merged_df['vader_polarity'].iloc[i] > 0.5): 
+        merged_df['vader_polarity_classification'].iloc[i] = 'Slight_Negative'
+    elif merged_df['vader_polarity'].iloc[i] == 0: 
+        merged_df['vader_polarity_classification'] = 'Neutral'
+    elif (merged_df['vader_polarity'].iloc[i] > 0 and merged_df['vader_polarity'].iloc[i] < 0.5): 
+        merged_df['vader_polarity_classification'].iloc[i] = 'Slight_Positive'
+    elif merged_df['vader_polarity'].iloc[i] > .5: 
+        merged_df['vader_polarity_classification'].iloc[i] = 'Very_Positive'
+
+
+
+merged_df['Trimmed_Text'] = merged_df['Trimmed_Text'].astype(str).str.strip()
+merged_df.replace('', np.nan, inplace=True)
+
+merged_df = merged_df.dropna(subset=['Trimmed_Text']).reset_index(drop=True)
+
+merged_df = merged_df.drop_duplicates()
+merged_df
+
+```
+
+
+#### Flair Sentiment Analysis 
+
+
+```{python}
+#| eval: false
+classifier = TextClassifier.load('en-sentiment')
+sentence_list = [Sentence(text) for text in merged_df['Trimmed_Text']]
+
+classifier.predict(sentence_list, mini_batch_size=32, verbose=True)
+
+merged_df['Flair_Label'] = [s.labels[0].value if s.labels else "UNKNOWN" for s in sentence_list]
+merged_df['Flair_Score'] = [s.labels[0].score if s.labels else 0.0 for s in sentence_list]
+
+ 
+merged_df = merged_df.drop(['NB_Classification', 'NB_Polarity'], axis=1)
+merged_df
+```
+
+
+#### Hugging Face Financial Model: https://huggingface.co/mrm8488/distilroberta-finetuned-financial-news-sentiment-analysis 
+
+
+```{python}
+#| eval: false
+pipe = pipeline("text-classification", model="mrm8488/distilroberta-finetuned-financial-news-sentiment-analysis",truncation=True,max_length=512)
+
+for i in range(len(merged_df)): 
+    text = merged_df['Trimmed_Text'].iloc[i]
+    result = pipe(text)
+    merged_df['Fin_Sent_Label'] = result[0]['label']
+    merged_df['Fin_Sent_Score'] = result[0]['score']
+    if i % 1000 == 0: 
+        print(i)
+    else:
+        continue
+
+
+merged_df
+```
+
+
+#### Hugging Face News Model: https://huggingface.co/finiteautomata/beto-headlines-sentiment-analysis 
+
+```{python}
+#| eval: false
+pipe2= pipeline("text-classification", model="finiteautomata/beto-headlines-sentiment-analysis", truncation = True, max_length = 512)
+
+
+for i in range(len(merged_df)): 
+    text = merged_df['Trimmed_Text'].iloc[i]
+    result = pipe2(text)
+    merged_df['News_Headlines_Label'] = result[0]['label']
+    merged_df['News_Headlines_Score'] = result[0]['score']
+    if i % 1000 == 0: 
+        print(i)
+    else:
+        continue
+
+merged_df
+
+```
+
+
+Additional Filtering was done see Sentiment.py
+
+See SVM.py for modeling
+
+
+### Next Steps 
+I hope to have these next steps done in the coming weeks please come back and check!
+
+-Implement stratified sampling to ensure balanced daily coverage instead of high-density short windows.
+-Restrict scraping scope to one year sliding window max to enhance feasibility.
+-Pre-filter by geographic (using IP address geolocation) and financial relevance before full article extraction.
+-Deploy sentiment as a parallel model, feeding into a stacked meta-learning framework.
+-Structure the sentiment in a lagged fashion.
+-Focus on well known sources opposed to small-market news outlets.
+-Scale up and include automated pipelines.
